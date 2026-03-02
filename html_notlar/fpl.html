@@ -1,0 +1,122 @@
+<b>11- FPL&FM - UÇUŞ PLANLAMA VE TAKİBİ</b><br>
+<br>
+<b>YAKIT POLİTİKASI VE HESAPLAMALAR (FUEL POLICY)</b><br>
+*   <b>Trip Fuel (Uçuş Yakıtı):</b> Kalkıştan (take-off) varış meydanına inene kadar (iniş dahil) gereken yakıttır. Şunları kapsar: Kalkış, Tırmanış, Seyir (Cruise), Alçalma, Yaklaşma ve İniş. <b>Taksi yakıtı Trip Fuel'e dahil değildir.</b><br>
+*   <b>Contingency Fuel (Beklenmedik Durum Yakıtı):</b><br>
+    *   Rota sapmaları, rüzgar değişiklikleri gibi öngörülemeyen durumlar içindir.<br>
+    *   Genellikle Trip Fuel'in <b>%5'i</b> veya uçuş süresinin <b>5 dakikasına</b> denk gelen yakıttır (hangisi büyükse).<br>
+    *   <b>Önemli:</b> Eğer rota üzerinde bir <b>Yol Boyu Yedek Meydan (En-route Alternate)</b> belirlenmişse, bu oran <b>%3'e</b> düşürülebilir.<br>
+    *   <b>Decision Point (Re-clear) Prosedürü:</b> Uygulandığında, contingency yakıtı tüm rota için değil, sadece karar noktası ile varış meydanı arasındaki bölüm için hesaplanarak azaltılabilir.<br>
+*   <b>Alternate Fuel (Yedek Meydan Yakıtı):</b><br>
+    *   Varış meydanında pas geçme (missed approach),<br>
+    *   Yedek meydana tırmanma,<br>
+    *   Yedek meydana uçuş (seyir),<br>
+    *   Yedek meydanda alçalma, yaklaşma ve iniş yakıtını kapsar.<br>
+*   <b>Final Reserve Fuel (Nihai Rezerv Yakıtı):</b><br>
+    *   <b>Turbojet motorlu uçaklar için:</b> Yedek meydan üzerinde (veya yedek yoksa varış meydanı üzerinde) <b>1500 feet</b> irtifada, standart şartlarda <b>30 dakika</b> bekleme (holding) yapacak miktardır.<br>
+    *   Pistonlu motorlar için: Genellikle 45 dakika.<br>
+*   <b>Minimum Diversion Fuel:</b> Alternate Fuel + Final Reserve Fuel toplamıdır.<br>
+*   <b>Holding (Bekleme) Yakıtı Hesabı:</b> Planlamada yedek meydan üzerinde <b>1500 feet</b> irtifada bekleme baz alınır.<br>
+*   <b>Ağırlık Hesaplamaları (Basit Formüller):</b><br>
+    *   `Kalkış Ağırlığı (TOW) - Harcanan Yakıt (Trip Fuel) = İniş Ağırlığı (Landing Weight)`<br>
+    *   `Maksimum Kalkış Ağırlığı (MTOW) - Operasyonel Boş Ağırlık (DOW) = Maksimum Faydalı Yük (Payload + Yakıt)`<br>
+<br>
+<b>YEDEK MEYDAN SEÇİMİ (ALTERNATE AERODROME)</b><br>
+*   <b>Take-off Alternate (Kalkış Yedek Meydanı):</b><br>
+    *   Kalkış meydanındaki hava şartları, o meydanın iniş limitlerinin (minima) altındaysa ve acil durumda geri dönüş mümkün değilse seçilmek zorundadır.<br>
+    *   <b>İki motorlu uçaklar için mesafe:</b> Tek motor arızalı (One Engine Inoperative) seyir süratiyle, sakin havada <b>1 saat (60 dakika)</b> uçuş mesafesi içinde olmalıdır. (ETOPS onayı varsa süre uzayabilir, örn: 120 dk).<br>
+    *   <b>3 veya 4 motorlu uçaklar için mesafe:</b> Tek motor arızalı süratle <b>2 saat</b> uçuş mesafesi.<br>
+    *   <b>Hava Durumu Şartı:</b> Kalkış yedek meydanının hava durumu (RVR ve tavan), iniş için gereken limitlere eşit veya üzerinde olmalıdır.<br>
+*   <b>Destination Alternate (Varış Yedek Meydanı):</b><br>
+    *   Her IFR uçuş için en az <b>bir</b> yedek meydan seçilmelidir.<br>
+    *   <b>İstisna:</b> Uçuş süresi 6 saatten azsa VE varış meydanında <b>iki ayrı pist</b> varsa VEYA hava durumu ETA ±1 saat içinde VMC (Görerek şartlar) ise yedek gerekmeyebilir (ancak ticari uçuşlarda genelde standarttır).<br>
+    *   <b>İki Yedek Meydan Gerekliliği:</b><br>
+        1.  Varış meydanı için meteorolojik bilgi (tahmin) yoksa.<br>
+        2.  Varış meydanındaki hava durumu tahminleri, ETA ±1 saat içinde planlama minimasının altındaysa (marginal).<br>
+*   <b>Planlama Minimas (Planning Minima):</b><br>
+    *   Yedek meydan seçerken, o meydandaki yaklaşma imkanlarına göre emniyet payı eklenir.<br>
+    *   Yedek meydanda <b>CAT II veya CAT III</b> (hassas) yaklaşma olsa bile, planlama aşamasında <b>CAT I</b> limitlerine göre değerlendirilir.<br>
+    *   Non-precision (hassas olmayan) yaklaşma varsa, limitlere ekleme yapılır (Örn: MDH + 200 ft / RVR + 1000m).<br>
+<br>
+<b>ETOPS (EXTENDED RANGE TWIN ENGINE OPERATIONS)</b><br>
+*   <b>Tanım:</b> İki motorlu uçakların, tek motor arızası durumunda uygun bir meydana <b>60 dakikadan</b> (sakin hava, standart atmosfer) daha uzakta uçtuğu operasyonlardır.<br>
+*   <b>Eşik Süre:</b> ETOPS onayı olmayan bir uçak/operatör, 60 dakika sınırını aşamaz. Aşan rotalar için ETOPS sertifikası (90, 120, 180 dk vb.) gerekir.<br>
+*   <b>Adequate Airport:</b> Fiziksel olarak uygun (pist uzunluğu, mukavemeti) meydan.<br>
+*   <b>Suitable Airport:</b> Hava durumu ve hizmetler açısından o anki operasyon için uygun olan meydan.<br>
+<br>
+<b>UÇUŞ PLANI FORMU (ICAO FLIGHT PLAN - FPL)</b><br>
+*   <b>Sunulma Zamanı:</b> Kural olarak kalkıştan en az <b>60 dakika</b> önce sunulmalıdır.<br>
+*   <b>Gecikme (Delay - DLA):</b><br>
+    *   Kontrollü uçuşlarda (IFPS sahası), EOBT'den (Tahmini Blok Çıkış) <b>15 dakika</b> sapma olursa DLA mesajı çekilmelidir.<br>
+    *   Kontrolsüz uçuşlarda bu süre genelde <b>60 dakikadır</b>.<br>
+*   <b>Madde 8 (Uçuş Kuralları):</b><br>
+    *   <b>I:</b> IFR<br>
+    *   <b>V:</b> VFR<br>
+    *   <b>Y:</b> IFR başlar, sonra VFR'a döner.<br>
+    *   <b>Z:</b> VFR başlar, sonra IFR'a döner.<br>
+*   <b>Madde 8 (Uçuş Tipi):</b> <b>S</b> (Scheduled/Tarifeli), <b>N</b> (Non-scheduled/Tarifesiz), <b>G</b> (Genel Havacılık), <b>M</b> (Askeri).<br>
+*   <b>Madde 9 (Uçak Tipi & Türbülans):</b> Türbülans kategorisi MTOW'a göre belirlenir (L: Light, M: Medium, H: Heavy).<br>
+*   <b>Madde 10 (Ekipman):</b><br>
+    *   <b>R:</b> PBN (Performans Tabanlı Seyrüsefer - RNAV/RNP) onayı var.<br>
+    *   <b>W:</b> RVSM onayı var.<br>
+    *   <b>Z:</b> Diğer ekipmanlar (Madde 18'de açıklanır, örn: COM/, DAT/ vb.).<br>
+*   <b>Madde 15 (Hız ve Seviye):</b><br>
+    *   Hız: <b>TAS (True Air Speed)</b> olarak yazılır. Format: <b>N0450</b> (450 Knot) veya <b>M082</b> (Mach 0.82).<br>
+    *   Seviye: <b>F320</b> (Flight Level 320), <b>A050</b> (Altitude 5000 ft), <b>VFR</b>.<br>
+*   <b>Madde 16 (Varış Meydanı):</b><br>
+    *   Meydanın 4 harfli ICAO kodu yoksa <b>ZZZZ</b> yazılır. Meydanın adı Madde 18'de <b>DEST/</b> koduyla belirtilir.<br>
+    *   Aynı kural yedek meydan için de geçerlidir (<b>ALTN/</b>).<br>
+*   <b>Madde 18 (Diğer Bilgiler):</b><br>
+    *   <b>EET/</b>: Tahmini geçen süre (FIR sınırlarına kadar).<br>
+    *   <b>REG/</b>: Uçak tescil işareti.<br>
+    *   <b>OPR/</b>: İşletmeci adı.<br>
+    *   <b>STS/</b>: Özel statü (STS/HEAD, STS/SAR, STS/HOSP vb.).<br>
+<br>
+<b>HAVA TRAFİK AKIŞ YÖNETİMİ (ATFM) VE MESAJLAR</b><br>
+*   <b>CFMU / NM (Network Manager):</b> Avrupa hava sahasındaki akış yönetimini sağlayan birim (Brüksel ve Paris merkezli).<br>
+*   <b>AFTN Adresleri:</b> IFPS için <b>EUCHZMFP</b> ve <b>EUCBZMFP</b> (veya BRUEP7X / PAREP7X).<br>
+*   <b>CTOT (Calculated Take-Off Time):</b> Slot zamanı.<br>
+    *   Tolerans: <b>-5 / +10 dakika</b> (Slot zamanından 5 dk önce ile 10 dk sonrası arasında kalkılmalıdır).<br>
+*   <b>Mesaj Türleri:</b><br>
+    *   <b>SAM (Slot Allocation Message):</b> Slot atama mesajı.<br>
+    *   <b>SRM (Slot Revision Message):</b> Slot değişikliği/revizyonu mesajı.<br>
+    *   <b>SLC (Slot Cancellation):</b> Slot iptal mesajı.<br>
+    *   <b>SIP (Slot Improvement Proposal):</b> Slot iyileştirme teklifi.<br>
+        *   Kabul edilirse: <b>SPA</b> (Slot Proposal Acceptance).<br>
+        *   Reddedilirse: <b>SRJ</b> (Slot Proposal Rejection).<br>
+    *   <b>RRP (Rerouting Proposal):</b> Rota değişikliği teklifi. Kabul edilirse <b>CHG</b> (Change) mesajı ile yeni rota gönderilir.<br>
+    *   <b>DLA (Delay):</b> Gecikme bildirimi.<br>
+    *   <b>CHG (Change):</b> Uçuş planında değişiklik (Callsign, meydanlar hariç).<br>
+    *   <b>CNL (Cancel):</b> Uçuş planı iptali. (EOBT, Callsign veya Meydan değişirse önce CNL sonra yeni FPL gerekir).<br>
+    *   <b>FLS (Flight Suspension):</b> Uçuşun askıya alınması.<br>
+    *   <b>DES (De-suspension):</b> Askıdan indirme / Uçuşun tekrar aktif edilmesi.<br>
+    *   <b>REA (Ready Message):</b> Uçak hazır, daha erken kalkış imkanı sorgulayan mesaj (ATC çeker).<br>
+    *   <b>SWM (Slot Waiver Message):</b> Mevcut slotu kabul ediyorum, iyileştirme istemiyorum (dondurma) mesajı.<br>
+<br>
+<b>MEYDAN İŞLETME MİNİMALARI (AOM) VE YAKLAŞMA</b><br>
+*   <b>Sorumluluk:</b> Minimaları belirlemek <b>Operatörün (İşletmecinin)</b> sorumluluğundadır. Devletin belirlediği limitlerden daha düşük olamaz.<br>
+*   <b>Hesaplama Kriterleri:</b> Uçak performansı, pist özellikleri, görsel yardımcılar (ışıklar), meteoroloji, ekip tecrübesi. (Meteorolojik rapor sıklığı bir kriter değildir).<br>
+*   <b>Terimler:</b><br>
+    *   <b>DA/H (Decision Altitude/Height):</b> <b>Hassas (Precision)</b> yaklaşmalar (ILS CAT I/II/III, PAR) için kullanılır. Referans: CAT I için barometrik altimetre, CAT II/III için Radyo Altimetre.<br>
+    *   <b>MDA/H (Minimum Descent Altitude/Height):</b> <b>Hassas Olmayan (Non-Precision)</b> (VOR, NDB, LOC) veya <b>Turlu (Circling)</b> yaklaşmalar için kullanılır. Görsel referans yoksa bu irtifanın altına inilemez (Pas geçme noktası değil, irtifa sınırıdır).<br>
+*   <b>Yaklaşma Türleri:</b><br>
+    *   <b>Precision (Hassas):</b> Yatay (Localizer) + Dikey (Glide Slope) bilgi verir. (Örn: ILS, MLS, PAR).<br>
+    *   <b>Non-Precision (Hassas Olmayan):</b> Sadece yatay bilgi verir. (Örn: VOR, NDB, LOC).<br>
+    *   <b>Straight-in (Düz İniş):</b> Son yaklaşma hattı ile pist merkez hattı arasındaki açı <b>30 dereceden az</b> ise yapılır.<br>
+    *   <b>Circling (Turlu Yaklaşma):</b> Açı 30 dereceden fazlaysa veya pisti karşılamayan bir yaklaşma sonrası görerek manevra ile inilir.<br>
+    *   <b>Visual Approach (Görerek Yaklaşma):</b> IFR planı devam ederken, pilotun yeri görerek ve bulutlardan uzak kalarak yaptığı yaklaşmadır.<br>
+<br>
+<b>DÜŞÜK GÖRÜŞ OPERASYONLARI (LVP)</b><br>
+*   <b>LVP (Low Visibility Procedures):</b> Genellikle RVR <b>550m (veya 600m)</b> altına ve/veya Bulut Tavanı <b>200 ft</b> altına düştüğünde uygulanır.<br>
+*   <b>LVTO (Low Visibility Take-off):</b> RVR <b>400m</b> altındaki kalkışlardır. (Otorite onayı ile 125m veya 150m'ye kadar inebilir).<br>
+*   <b>Pist Işıkları:</b> Gündüz RVR <b>800m</b> altına düşerse pist kenar ışıkları (RL) yakılmalıdır.<br>
+<br>
+<b>DİĞER ÖNEMLİ BİLGİLER</b><br>
+*   <b>Acil Durum (Emergency):</b> Meydan işletme minimaları veya uçuş kuralları sadece <b>acil durumlarda</b> ihlal edilebilir.<br>
+*   <b>TAS Değişimi:</b> Plandaki TAS değerinden <b>%5</b> (artı veya eksi) sapma olursa ATC'ye bildirilmelidir.<br>
+*   <b>Kayıt Saklama:</b> Tamamlanmış uçuş planları, NOTAM/AIS dokümanları ve operasyonel formlar en az <b>3 ay (90 gün)</b> saklanmalıdır.<br>
+*   <b>Takvim Günü:</b> Gece yarısından (00:01) diğer gece yarısına (24:00) kadar olan süredir.<br>
+*   <b>Uçuş Günü:</b> 24 saatlik dilim içinde uçağın en az bir kez uçtuğu gündür.<br>
+*   <b>Dispeçer Sorumluluğu:</b> Uçuşun planlanması, takibi (flight supervision), acil durum desteği ve kaptan ile ortak sorumluluk (imza). Ticari tarife planlaması yapmaz.<br>
+*   <b>Uçuş Planı İptali:</b> Varış meydanı kapanırsa veya uçuş tarihinde köklü değişiklik olursa (RPL olsa bile) plan iptal edilip yenisi sunulmalıdır.<br>
+*   <b>IFR Başlangıç Şartı:</b> Meteorolojik raporlar, varış veya yedek meydanın, varış zamanında (ETA) limitlere uygun (veya daha iyi) olacağını göstermelidir. Aksi takdirde uçuş IFR olarak başlatılamaz.

@@ -1,0 +1,51 @@
+1) M&B - AĞIRLIK VE DENGE (U 01 E UO 199 )<br>
+<br>
+<b>Temel Ağırlık ve Kütle Tanımları</b><br>
+* <b>Basic Empty Weight (BEW):</b> Uçağın fabrika çıkış boş ağırlığıdır. <b>DİKKAT:</b> Uçağın temel boş kütlesine, kullanılamayan yakıt ve boşaltılamayan motor yağı dahildir, trafik yükü dahil değildir. <b>DOW</b>'un (İşletme Boş Kütlesi) bir bileşenidir.<br>
+* <b>Dry Operating Mass/Weight (DOM/DOW):</b> Uçağın operasyona hazır boş halidir. <b>BEW + Mürettebat (Crew) ve bagajları + İkram (Catering) + İçme suyu ve tuvalet kimyasallarını</b> içerir. <b>DİKKAT:</b> DOW kesinlikle taşınan ticari yükü (Payload/Traffic Load) ve kullanılabilir yakıtı (Usable fuel) içermez.<br>
+* <b>Maximum Zero Fuel Mass/Weight (MZFM/MZFW):</b> Uçağın yakıt alınmadan önce gövde yapısının taşıyabileceği azami ağırlık limitidir.<br>
+* <b>Take-off Weight (TOW):</b> Uçağın pist başı yaptığı ve fren bıraktığı andaki, içindeki her şey ve herkes dahil gerçek ağırlığıdır.<br>
+* <b>Maximum Taxi / Ramp Mass:</b> Uçağın motor çalıştırmadan önce yüklenebileceği maksimum kütledir. <b>MTOW + Taksi yakıtını</b> kapsar.<br>
+* <b>Traffic Load (Payload):</b> Uçakta taşınan tüm yolcu, bagaj ve kargonun toplam ağırlığıdır.<br>
+<br>
+<b>Ağırlık Hesaplama Formülleri ve Denklemler</b><br>
+* <b>ZFW (Yakıtsız Ağırlık)</b> = DOW + Payload (Total Traffic Load)<br>
+* <b>TOW (Kalkış Ağırlığı)</b> = ZFW + Take Off Fuel<br>
+* <b>BRWT (Brake Release Weight / TOW)</b> = Total Fuel - Taksi Yakıtı<br>
+* <b>LDW (İniş Ağırlığı)</b> = TOW - Trip Fuel (Uçuş Yakıtı)<br>
+* <b>LDW (İniş Ağırlığı)</b> = ZFW + Remaining Fuel (Kalan Yakıt)<br>
+* <b>Payload (Maksimum Ticari Yük)</b> = MZFW - DOW (veya ZFW - DOW)<br>
+* <b>Arm (Moment Kolu)</b> = Moment / Force (Kuvvet/Ağırlık)<br>
+<br>
+<b>Problem Çözüm Mantıkları (Sınav Soru Taktikleri)</b><br>
+* <b>Maksimum İzin Verilen Kalkış Ağırlığı (Max Allowed TOW) Bulma:</b> Sınavda verilen 3 limite bakılır ve daima <b>en küçük olan</b> seçilir:<br>
+  1) Yapısal MTOW<br>
+  2) Maksimum İniş Ağırlığı (MLW) + Trip Fuel<br>
+  3) Maksimum Yakıtsız Ağırlık (MZFW) + Take Off Fuel<br>
+* <b>Tahmini İniş Ağırlığı Hesaplama:</b> DOM + Load (Yük) + Final Reserve + Alternate Fuel toplamıdır. <b>DİKKAT:</b> Trip Fuel havada yakıldığı için iniş ağırlığına eklenmez.<br>
+* <b>Actual TOW Hesaplama:</b> Gerçek ZFW + Taksi yakıtı <b>hariç</b> tüm kalkış yakıtları (Trip + Contingency + Alternate + Final Reserve).<br>
+* <b>İlave Yük / Yakıt Kapasitesi Bulma:</b> Uçuş planı harici ekstra alınabilecek azami yük, (MTOW - ATOW) ile (MLW - ALW) hesaplamalarından elde edilen farkların <b>en küçük</b> olanıdır.<br>
+* <b>Payload (Maksimum Trafik Yükü) Bulma Sorusu:</b> Verilen değerler arasından sadece <b>MZFM - DOM</b> işlemi yapılır (Örn: 112.500 kg - 80.400 kg = 32.100 kg).<br>
+<br>
+<b>Ağırlık Merkezi (CG) ve Uçuş Dinamiği</b><br>
+* <b>CG (Centre of Gravity) Tanımı:</b> Uçağın toplam kütlesinin dengelendiği ve moment hesaplamalarında her zaman <b>referans (datum)</b> olarak kullanılan noktadır.<br>
+* <b>Sabit Duran Uçak:</b> Uçak yerdeyken, toplam ağırlık dikey olarak yerçekimi vektörüne paralel biçimde <b>ana iniş takımı tekerleklerinden (main wheels)</b> etki eder.<br>
+* <b>CG Hareketliliği:</b> Ağırlık merkezi sabit değildir, yükleme dağılımına göre belirlenmiş güvenli limitler arasında (forward ve aft limitleri) hareket edebilir.<br>
+* <b>Uçuşta Yükün Kayması:</b> Uçuşta bir yük hareket ederse o yükün momenti değişir ve uçağın dengesi anında bozulur.<br>
+* <b>Ön Limit İhlali Çözümü:</b> Eğer hesaplamalarda CG ön limitin de ilerisinde çıkarsa, düzeltmek için <b>öndeki bir yük CG'nin arkasına</b> taşınmalıdır.<br>
+* <b>DİKKAT: FORWARD CG (Ağırlık Merkezinin Önde Olması) Tuzakları:</b> Sınavda en çok sorulan aerodinamik konudur. CG önde olursa şunlar gerçekleşir:<br>
+  * Uçak boylamasına eksende <b>aşırı istikrarlı (extremely stable)</b> hale gelir. Burnu ağırlaşır.<br>
+  * Uçağın burnunu kaldırmak (pitch change) için <b>aşırı Elevator kumandası ve trim</b> gerekir. Elevator kontrolü kısıtlanır.<br>
+  * Kuyrukta daha fazla aşağı basma kuvveti ve kanatlarda daha fazla kaldırma (lift) kuvveti gerekir. Bu durum aerodinamik sürüklemeyi (<b>drag</b>) ciddi oranda artırır.<br>
+  * Tırmanma oranı (Rate of climb) <b>azalır</b>.<br>
+  * Yakıt tüketimi artacağı için uçağın menzili (<b>Range</b>) kesinlikle <b>azalır</b>.<br>
+<br>
+<b>Limitler, Kurallar ve Dökümantasyon</b><br>
+* <b>Ağırlık ve Dengenin Etkisi:</b> Uçağın performansını, kontrol edilebilirliğini, gövde üzerindeki yapısal stresi ve genel uçuş emniyetini doğrudan etkiler.<br>
+* <b>Yüklerin Sabitlenmesi (Securing Loads):</b> Kargo ve bagajların uçak içinde sıkıca sabitlenmesi, uçuşta <b>planlanmamış CG (Ağırlık Merkezi) kaymalarını</b> ve uçağın yapısal hasar görmesini engellemek için zorunludur.<br>
+* <b>Yükleme Limitasyonları İçeriği:</b> Kütle limitleri, ağırlık merkezi pozisyonu, kütle dağılımları ve pist/kabin <b>zemin yüklemelerini (floor loadings)</b> içermek zorundadır.<br>
+* <b>İniş Ağırlığı ve Pist Dayanıklılığı:</b> Uçağın iniş ağırlığı hesaplanırken, pistin dayanıklılığına zarar vermemek için uçağın <b>maksimum tek teker yükleme faktörü</b> mutlaka göz önüne alınmalıdır.<br>
+* <b>DİKKAT: Operasyonel Ağırlık Sınırlaması Olmayan Etken:</b> İniş mesafesi, yolcu sayısı ve teker basıncı uçağın ağırlığını kısıtlar ancak <b>kabin basıncı sınırlamaları</b>, fiziksel bir kalkış/iniş ağırlığı sınırlaması değildir.<br>
+* <b>Load & Trim Sheet Kuralı:</b> Ağırlık ve denge dökümanı kaptan tarafından imzalandıktan sonra büyük yük değişimlerine izin verilmez. Sadece karşılıklı mutabakatla, belgelenmiş <b>Son Dakika Değişiklikleri (LMC - Last Minute Change)</b> döküman üzerinde kayıt altına alınarak yapılabilir.<br>
+* <b>LDM (Load Distribution Message):</b> Uçağın kalkışından hemen sonra gönderilen, uçağın uçuş öncesi <b>nihai yolcu ve yük dağılımını</b> gösteren standart operasyonel mesajdır.<br>
+* <b>MAC (Mean Aerodynamic Chord):</b> Kanadın <b>hücum kenarı (Leading edge)</b> ile <b>firar kenarını (Trailing edge)</b> birleştiren ve CG'nin %MAC olarak hesaplanmasında kullanılan hayali veter hattıdır.
