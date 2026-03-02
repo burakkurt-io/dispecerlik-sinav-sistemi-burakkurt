@@ -11,7 +11,8 @@
         "Açıklama": "Havacılıkta uçakların pusula sistemleri manyetik kuzeye endeksli olduğu için, pist istikametleri (QFU) daima Manyetik Kuzey (Magnetic North) referans alınarak belirlenir.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Pist İstikametleri ve Referans Yönü</b><br><br>Havacılıkta uçakların yön bulma sistemleri (pusulalar) dünyanın manyetik alanına göre çalışır. Bu nedenle pistlerin adlandırılmasında coğrafi (hakiki) kuzey değil, her zaman manyetik kuzey temel alınır.<br><br><b>Altın Kural:</b><ul><li><b>Pist numaraları (QFU):</b> Manyetik Kuzey (Magnetic North) referans alınarak belirlenir.</li><li><b>Örnek:</b> 360 derece manyetik başa sahip bir pist \"36\" olarak adlandırılır.</li></ul>Sınavda pist yönü veya numarası sorulduğunda doğrudan 'Manyetik' (Magnetic) kelimesini aramalı, Hakiki (True) Kuzey çeldiricisine düşmemelisin."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.2",
@@ -25,7 +26,8 @@
         "Açıklama": "Başlangıç Meridyeni (Prime Meridian), uluslararası kabul ile İngiltere'nin Greenwich kasabasından geçen ve boylam değeri 0 derece olan meridyendir.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Başlangıç Meridyeni (Prime Meridian) Kuralı</b><br><br>Dünya üzerindeki doğu-batı konumlandırması, sıfır noktası kabul edilen tek bir referans çizgisine dayanır.<br><br><b>Hap Bilgi:</b><ul><li><b>0 Derece Boylamı:</b> Başlangıç meridyeni olarak kabul edilir.</li><li><b>Konum:</b> Uluslararası standartlara göre İngiltere'nin <b>Greenwich</b> kasabasından geçer.</li></ul>Tüm zaman hesaplamaları (GMT/UTC) ve koordinat sistemleri bu 0 noktası üzerinden doğuya ve batıya doğru artarak hesaplanır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.3",
@@ -39,7 +41,8 @@
         "Açıklama": "Bir pistin karşılıklı yönleri (Reciprocal) arasında 180 derece fark vardır. $200 - 180 = 020$ derece olur.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Pist Yönü ve Karşılıklı Açı (Reciprocal) Hesaplaması</b><br><br>Bir pistin iki ucu birbirinin tam zıttıdır ve aralarında her zaman yarım dairelik bir açı farkı vardır.<br><br><b>Matematiksel Taktik:</b><ul><li><b>Kural:</b> İki yön arasındaki fark her zaman tam olarak <b>180 derece</b> olmak zorundadır.</li><li><b>Formül:</b> Verilen değer 180'den büyükse 180 çıkarılır. Verilen değer 180'den küçükse 180 eklenir.</li><li><b>Uygulama:</b> Sorumuzdaki 200 değeri 180'den büyük olduğu için: 200 - 180 = <b>020 derece</b> bulunur.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.4",
@@ -53,7 +56,8 @@
         "Açıklama": "Dünya'nın şekli (geoid) nedeniyle Ekvator'dan kutuplara gidildikçe paralellerin çevre uzunluğu (boyları) kısalır, ancak enlem dereceleri (0'dan 90'a) büyür. E şıkkındaki ifade bunun tersini söylediği için yanlıştır.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Paralellerin (Enlemlerin) Yapısal Özellikleri</b><br><br>Dünya geoid (kutuplardan basık, ekvatordan şişkin) bir küre olduğu için paralellerin çevre uzunlukları yeryüzünün her yerinde sabit kalamaz.<br><br><b>Kritik Fiziksel Kurallar:</b><ul><li><b>Derece Artışı:</b> Başlangıç paraleli Ekvator'dur (0 derece). Kutuplara gittikçe derece büyür (90 dereceye ulaşır).</li><li><b>Boy (Çevre) Kısalması:</b> Kutuplara yaklaştıkça dünyanın çevresi daraldığı için paralellerin boyları (uzunlukları) <b>küçülür/kısalır</b>.</li></ul>Sınavda derecelerin küçüldüğünü veya boyların büyüdüğünü iddia eden şık fiziksel olarak kesinlikle yanlıştır. Ekvator en büyük, Kutuplar ise en küçük paraleldir (birer noktadırlar)."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.5",
@@ -67,7 +71,8 @@
         "Açıklama": "Dünya üzerinde 180 adet Doğu ve 180 adet Batı olmak üzere toplam 360 adet meridyen yayı vardır; '180 adet' ifadesi yanlıştır.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Meridyen (Boylam) Sayıları ve Özellikleri</b><br><br>Dünyanın 360 derecelik tam bir küre dönüşü meridyen sayısını belirler.<br><br><b>Meridyen Kuralları:</b><ul><li><b>Toplam Sayı:</b> Greenwich'in doğusunda 180, batısında 180 olmak üzere yeryüzünde toplam <b>360 adet</b> meridyen yayı bulunur. Toplam '180 adettir' demek en büyük tuzaktır.</li><li><b>Mesafe Değişimi:</b> Paralellerin aksine meridyenlerin boyları eşittir, ancak iki meridyen arasındaki mesafe sadece Ekvator'da 111 km'dir; kutuplara gidildikçe bu mesafe daralır ve kutup noktalarında sıfırlanarak birleşirler.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.6",
@@ -81,7 +86,8 @@
         "Açıklama": "Rhumb Line (Kerte Hattı), dünya üzerindeki tüm meridyenleri aynı açıyla kesen, rotayı değiştirmeden (sabit baş ile) gidilen çizgidir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Kerte Hattı (Rhumb Line) Karakteristiği</b><br><br>Seyrüsefer haritalarında uçuş rotası planlanırken pusula başını sabit tutmak için belirli bir hat türü kullanılır.<br><br><b>Tanım ve Taktik:</b><ul><li><b>Rhumb Line (Loxodrome):</b> Dünya üzerindeki tüm meridyenleri (boylamları) <b>aynı açıyla kesen</b> hayali çizgidir.</li><li><b>Operasyonel Avantajı:</b> Pilot rotayı Rhumb Line üzerinde planlarsa, uçuş boyunca pusula başını (Heading) hiç değiştirmeden hedefine ulaşabilir. Sınavda 'aynı açıda kesen' ifadesi Rhumb Line'ın kilit kelimesidir.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.7",
@@ -95,7 +101,8 @@
         "Açıklama": "Convergency (Yakınsama), iki meridyen arasındaki açı farkıdır ve boylam farkı ile enlem sinüsüne bağlıdır. 'İki enlem arasındaki açıdır' ifadesi tanım olarak yanlıştır.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Yakınsama Açısı (Convergency Angle) Kavramı</b><br><br>Küre üzerindeki boylamlar (meridyenler) paralel uzanmazlar; ekvatordan kutuplara doğru yaklaştıkça birbirlerine doğru eğilir ve aralarında bir açı oluşur.<br><br><b>Doğru ve Yanlış Bilgiler:</b><ul><li><b>Gerçek Tanım:</b> Convergency, iki <b>boylam (meridyen)</b> arasında kutuplara doğru gidildikçe oluşan açısal farktır.</li><li><b>Yanlış Tanım:</b> Enlemler (paraleller) birbirini hiçbir zaman kesmez, daima paralel uzanırlar. Bu yüzden <b>'İki enlem arasındaki açıdır'</b> ifadesi geometriye tamamen aykırıdır ve yanlıştır.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.8",
@@ -109,7 +116,8 @@
         "Açıklama": "Sıfır noktasından zıt yönlere gidildiği için mutlak değerler toplanır: $78 (Doğu) + 120 (Batı) = 198$ derece boylam farkı oluşur.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Boylam Farkı (Change of Longitude) Hesaplama Taktiği</b><br><br>İki nokta arasındaki boylam farkı bulunurken, başlangıç meridyenine (0 noktasına) göre konumlar dikkate alınır.<br><br><b>Hesaplama Kuralı:</b><ul><li><b>Farklı Yarımküreler:</b> Biri Doğu (E), diğeri Batı (W) ise boylamlar sıfır noktasından zıt yönlere doğru açıldığı için bu iki değer birbirine <b>eklenir (toplanır)</b>. (78 + 120 = <b>198 derece</b>).</li><li><b>Aynı Yarımküreler:</b> İkisi de Doğu veya ikisi de Batı olsaydı, aralarındaki farkı bulmak için büyük olandan küçük olan çıkarılırdı.</li></ul>Sınavda E ve W harflerini gördüğün an toplama işlemi yapmalısın."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.9",
@@ -123,7 +131,8 @@
         "Açıklama": "$8 \\text{ cm} \\times 200.000 = 1.600.000 \\text{ cm}$. $1 \\text{ km} = 100.000 \\text{ cm}$ olduğu için; $1.600.000 / 100.000 = 16 \\text{ km}$'dir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Harita Ölçeği (Scale) Matematik Formülü</b><br><br>Ölçek soruları basit bir oran-orantı ve cm'den km'ye birim çevirme işlemidir. 1/200.000 demek, haritadaki 1 cm, gerçek dünyada 200.000 cm demektir.<br><br><b>Adım Adım Hesaplama:</b><ul><li><b>Adım 1 (Çarpma):</b> Haritadaki uzunluğu ölçek katsayısıyla çarp. (8 cm * 200.000 = 1.600.000 cm).</li><li><b>Adım 2 (Km'ye Çevirme):</b> Santimetreyi kilometreye çevirmek için 5 sıfır silinir (Çünkü 1 km = 100.000 cm'dir).</li><li><b>Sonuç:</b> 1.600.000 / 100.000 = <b>16 km</b>.</li></ul>Sıfırları doğru saymak bu sorunun tek püf noktasıdır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.10",
@@ -137,7 +146,8 @@
         "Açıklama": "$650 \\text{ NM} / 120 = 5,416 \\text{ inch}$. $1 \\text{ inch} = 2,54 \\text{ cm}$ olduğundan; $5,416 \\times 2,54 = 13,75 \\text{ cm}$ bulunur.",
         "Zorluk Derecesi(1-5)": "5",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>İngiliz Ölçü Birimleriyle Harita Uzunluk Hesabı</b><br><br>Bu tip sorularda Deniz Mili (NM), İnç (Inch) ve Santimetre (cm) arasında geçiş yapabilmek için uluslararası dönüşüm sabitlerini bilmek zorunludur.<br><br><b>Matematiksel Taktik:</b><ul><li><b>Sabit Bilgi:</b> 1 İnç = 2.54 cm'dir. Bu değeri ezberlemelisin.</li><li><b>Adım 1 (İnç bulma):</b> 650 NM'lik mesafenin haritada kaç inç edeceğini bulmak için böleriz: (650 / 120 = 5,416 inç).</li><li><b>Adım 2 (cm'ye çevirme):</b> Bulunan inç değerini 2.54 ile çarp. (5,416 * 2.54 = <b>13,75 cm</b>).</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.11",
@@ -151,7 +161,8 @@
         "Açıklama": "UTC, 'Universal Time Co-ordinated' (Eşgüdümlü Evrensel Zaman) kısaltmasıdır ve havacılıkta kullanılan temel zaman referansıdır.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Havacılık Zaman Referansı: UTC</b><br><br>Küresel havacılık operasyonlarında saat dilimi karmaşasını (Lokal saat farklarını) önlemek için tüm dünyada tek bir standart saat dilimi kullanılır ve tüm uçuş planları buna göre doldurulur.<br><br><b>Açılımı:</b> UTC'nin uluslararası havacılıktaki tam açılımı <b>Universal Time Co-ordinated (Eşgüdümlü Evrensel Zaman)</b>'dır. Eskiden kullanılan GMT'nin (Greenwich Mean Time) atomik saatlerle güncellenmiş modern versiyonudur. 'Co-ordinated' kelimesi doğru şıkkın kilididir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.12",
@@ -165,7 +176,8 @@
         "Açıklama": "Her 15 derece boylam 1 saat fark eder. $80 / 15 = 5$ saat $20$ dakika. Batı (West) saati GMT'den geridir: $14:00 - 05:20 = 08:40$.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Yerel Zaman (LMT) ve Batı Boylamı Hesaplaması</b><br><br>Dünya 360 derecelik turunu 24 saatte tamamlar. Bu basit kural tüm zaman hesaplamalarının temelidir.<br><br><b>Zaman/Boylam Formülü:</b><ul><li><b>Sabit Değer:</b> Her 15 derece boylam = 1 Saat (60 dakika) fark eder. (Her 1 derece = 4 dakikadır).</li><li><b>Zaman Farkını Bul:</b> 80 derece / 15 = 5 Saat 20 Dakika yapar.</li><li><b>Yön Kuralı:</b> Batı (W) boylamlarında güneş daha geç doğar, bu yüzden saat her zaman GMT'den daha <b>geridedir</b> (Çıkarma işlemi yapılır).</li><li><b>Sonuç:</b> GMT 14:00'ten 5 saat 20 dakika çıkarılırsa saat <b>08:40</b> olarak bulunur.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.13",
@@ -179,7 +191,8 @@
         "Açıklama": "$120 / 15 = 8$ saat fark vardır. Batı'daki saat (LMT) UTC'den geridir, yani UTC ileridedir: $09:00 + 08:00 = 17:00$ UTC.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Lokal Saatten (LMT) UTC'ye Geçiş Mantığı</b><br><br>Lokal saat verilip evrensel saat (UTC) istendiğinde, güneşin hareket mantığını tersten işletmek gerekir.<br><br><b>Hesaplama Adımları:</b><ul><li><b>Zaman Farkı:</b> 120 derece boylam / 15 = Tam 8 Saat zaman farkı vardır.</li><li><b>Mantık Çerçevesi:</b> Verilen nokta Batı'da (120 W) olduğu için, buranın yerel saati doğal olarak UTC'den 8 saat geridedir. Demek ki UTC zamanı, o şehrin saatinden 8 saat <b>ileride (fazla)</b> olmalıdır.</li><li><b>İşlem:</b> Yerel saat 09:00'a 8 saat eklenir (09:00 + 08:00) ve UTC zamanı <b>17:00</b> olarak bulunur.</li></ul>Batı boylamı gördüğünde LMT'den UTC'yi bulmak için daima toplama yapmalısın."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.14",
@@ -193,7 +206,8 @@
         "Açıklama": "$85 / 15 = 5$ saat $40$ dakika fark vardır. Batı (LMT), UTC'den geridir: $17:00 - 05:40 = 11:20$.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>UTC'den Yerel Saate (LMT) Batı Boylamı Geçişi</b><br><br>Zaman hesaplama sorularında 15'e tam (kalansız) bölünmeyen boylamlar her zaman ekstra dakika hesabı gerektirir.<br><br><b>Detaylı Çözüm:</b><ul><li><b>Derece/Saat Dönüşümü:</b> 85 derecenin içinde 5 tane tam 15 vardır (5x15=75 derece = 5 Saat). Kalan 10 derecenin her biri 4 dakikadır (10x4=40 dk). Toplam fark <b>5 Saat 40 Dakikadır</b>.</li><li><b>Kuralı Uygula:</b> İstenen yer Batı (W) yarımkürede olduğu için yerel saat UTC'den her zaman geridedir. Çıkarma işlemi yapılır.</li><li><b>Matematik:</b> 17:00'den 5 saat 40 dakika geriye gidildiğinde (çıkartıldığında) yerel saat <b>11:20</b> bulunur.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.15",
@@ -207,7 +221,8 @@
         "Açıklama": "$56 / 15 = 3$ saat $44$ dakika fark vardır. Doğu (LMT), UTC'den ileridir (UTC daha geridedir): $12:00 - 03:44 = 08:16$.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Lokal Saatten (LMT) UTC'ye Doğu Boylamı Geçişi</b><br><br>Doğu boylamlarındaki bir şehrin (LMT) saati verilip evrensel saat (UTC) istendiğinde, dünyanın dönüş yönü nedeniyle hesaplama çıkarma işlemi ile yapılır.<br><br><b>Hesaplama Adımları:</b><ul><li><b>Dakika Hesabı:</b> 56 derece / 15 = 3 Saat yapar (45 derece). Kalan 11 derecenin her biri 4 dakika ile çarpılır (11x4=44 dk). Toplam zaman farkı <b>3 Saat 44 Dakikadır</b>.</li><li><b>Kuralı Uygula:</b> Nokta Doğu'da (E) olduğu için güneşi erken görür ve yerel saati UTC'den daima ileridedir. Demek ki UTC daha geride bir saattir.</li><li><b>İşlem:</b> Yerel saat 12:00'den 3 saat 44 dakika geriye gidilir (çıkartılır). Sonuç <b>08:16</b> olur.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.16",
@@ -221,7 +236,8 @@
         "Açıklama": "Deviation, Manyetik (M) ile Pusula (C) arasındaki farktır. Manyetik (120), Pusula (105)'den büyüktür. Soru mantığına göre $120 - 15 = 105$ denklemiyle 15W cevabı verilmiştir.",
         "Zorluk Derecesi(1-5)": "5",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Manyetik Sapma (Deviation) Hesaplama</b><br><br>Deviation (Pusula Sapması), uçağın metal ve elektronik aksamının manyetik alanı bozarak pusulayı saptırmasıdır. Manyetik Baş (M) ile Pusula Başı (C) arasındaki farkı ifade eder.<br><br><b>Sınav Formülü:</b><ul><li><b>Formül:</b> Deviation = Compass (C) - Magnetic (M)</li><li><b>Değerleri Yerine Koy:</b> Soruda Pusula (C) 105, Manyetik (M) 120 verilmiş. 105 - 120 = <b>-15</b> bulunur.</li><li><b>Yön Kuralı:</b> Eksi (-) çıkan sonuçlar bu formüle göre daima <b>West (Batı / W)</b> olarak adlandırılır. Bu nedenle doğru cevap <b>15W</b> şıkkıdır.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.17",
@@ -235,7 +251,8 @@
         "Açıklama": "Variation, True (T) ile Magnetic (M) arasındaki farktır. $T(100) + Variation = M(120)$ denklemine göre Variation $+20$ yani 20 East (Doğu) dur.",
         "Zorluk Derecesi(1-5)": "5",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Varyasyon (Variation) Hesaplama Mantığı</b><br><br>Varyasyon, yeryüzünün coğrafi yapısından kaynaklanan; Gerçek Kuzey (True) ile Manyetik Kuzey (Magnetic) arasındaki bölgesel açı farkıdır.<br><br><b>Sınav Sisteminin Formülü:</b><ul><li><b>Denklem:</b> Gerçek Baş (T) + Varyasyon (Var) = Manyetik Baş (M)</li><li><b>Değerleri Yerine Koy:</b> 100 + Varyasyon = 120</li><li><b>Sonuç:</b> Varyasyon buradan <b>+20</b> çıkar. Artı (+) sonuçlar sınav sisteminde <b>East (Doğu / E)</b> olarak kabul edilir, bu nedenle doğru cevap <b>20E</b> olur.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.18",
@@ -249,7 +266,8 @@
         "Açıklama": "Manyetik Kuzey ile uçağın pusulasının gösterdiği Kuzey (Compass North) arasındaki metalik/elektriksel sapma açısına 'Pusula Sapması' (Deviation) denir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Kuzeyler Arasındaki Açılar: Deviation (Pusula Sapması)</b><br><br>Uçağın kokpitindeki pusula her zaman mükemmel çalışmaz. İçerideki metaller ve elektronik cihazlar (radyolar, motorlar vb.) kendi manyetik alanlarını yaratarak pusulayı şaşırtır.<br><br><b>Altın Tanım:</b> Dünya'nın Manyetik Kuzeyi (Magnetic North) ile uçağın kendi aletinin o an gösterdiği Pusula Kuzeyi (Compass North) arasındaki bu istenmeyen elektriksel ve donanımsal sapma açısına <b>Pusula Sapması (Deviation)</b> denir. Cihaz hatasıdır, coğrafi bir hata değildir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.19",
@@ -263,7 +281,8 @@
         "Açıklama": "Coğrafi (Gerçek) Kuzey ile Manyetik Kuzey arasındaki açısal farka 'Varyasyon' (Variation) denir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Kuzeyler Arasındaki Açılar: Variation (Varyasyon)</b><br><br>Dünya'nın coğrafi tepe noktası olan Gerçek Kuzey Kutbu ile pusulaların iğnelerini çeken Manyetik Kuzey Kutbu yeryüzünde aynı noktada değildir.<br><br><b>Altın Tanım:</b> Haritaların baz aldığı Gerçek (Coğrafi) Kuzey ile pusulaların yöneldiği Manyetik Kuzey arasındaki yeryüzünün jeolojik yapısından kaynaklanan bu doğal açı farkına <b>Varyasyon (Variation)</b> denir. Bu hata cihazdan değil, tamamen dünyanın fiziki yapısından kaynaklanır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.20",
@@ -277,7 +296,8 @@
         "Açıklama": "Gerçek Kuzey (True North), herhangi bir meridyen boyunca coğrafi Kuzey Kutup noktasına doğru olan yöndür.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Gerçek Kuzey (True North) Tanımı</b><br><br>Harita okuma, koordinat sistemleri ve hava yollarının temel referansı coğrafi kutup noktalarıdır.<br><br><b>Tanım ve Taktik:</b> Gerçek Kuzey, yeryüzündeki <b>herhangi bir meridyen çizgisini takip ederek doğrudan dünyanın coğrafi (gerçek) kuzey kutup noktasına doğru gidilen yöndür.</b> Sınavda 'kuzey yarımküre/güney yarımküre' gibi kısıtlayıcı şıklara kanma, tanım yeryüzünün her yeri (herhangi bir meridyen) için sabittir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.21",
@@ -291,7 +311,8 @@
         "Açıklama": "Vakum sistemleri, atmosfer yoğunluğunun azaldığı çok yüksek irtifalarda (30.000 ft üzeri) ve aşırı düşük sıcaklıklarda (-37°C altı) verimli çalışamaz.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Vakum Tahrikli Jiroskopların Fiziksel Limitleri</b><br><br>Eski tip uçaklarda veya modern uçakların mekanik yedek sistemlerinde kullanılan vakum pompaları (motor devriyle havayı emerek jiroskopu döndüren sistemler), havanın çok ince ve aşırı soğuk olduğu irtifalarda güç kaybeder.<br><br><b>Kritik Eşik Değerleri:</b><ul><li><b>İrtifa Sınırı:</b> Atmosfer basıncının ve hava yoğunluğunun iyice azaldığı <b>30.000 feet</b> irtifa sınırıdır.</li><li><b>Sıcaklık Sınırı:</b> Sistemin donma veya mekanik esnekliğini/yağlamasını kaybetme eşiği olan <b>-37 derece (Santigrat)</b> limitidir.</li></ul>Sınavda bu ikili değeri (30.000 / -37) doğrudan eşleştirmelisin."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.22",
@@ -305,7 +326,8 @@
         "Açıklama": "Klasik istikamet cayroları (Directional Gyro), mekanik yapıları gereği yaklaşık 55 dereceden fazla yatış veya yunuslama yapılırsa devrilir (topple) ve hatalı gösterir.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>İstikamet Cayrosu (Directional Gyro) Devrilme (Topple) Limitleri</b><br><br>Mekanik jiroskoplar sonsuz bir hareket alanına sahip değildir. Gimbal (iç içe geçen halka) sistemleri uçağın aşırı manevralarında fiziksel olarak kilitlenir ve cayro 'devrilerek' (topple) yönünü şaşırır.<br><br><b>Mekanik Limit Kuralı:</b> Klasik istikamet cayrolarının tasarımı gereği, uçağın yapacağı dalış/tırmanış (Pitch) ve yatış (Roll) manevralarının tolerans sınırı her iki eksende de <b>maksimum 55 derecedir (55 / 55)</b>. Bu açılar aşılırsa gösterge kilitlenir ve hatalı bilgi verir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.23",
@@ -319,7 +341,8 @@
         "Açıklama": "Serbest bir jiroskop (Free Gyro), uzayda konumunu koruyabilmek için 3 eksende (yatay, dikey ve kendi ekseni) hareket serbestisine sahiptir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Serbest Jiroskop (Free Gyro) Hareket Serbestisi</b><br><br>Uzayda yönünü korumak (Rigidity in space) ve uçağın yaptığı hiçbir manevradan etkilenmemek (yapay ufuk ve yön sağlamak) için bir jiroskobun fiziki olarak tam bağımsız olması gerekir.<br><br><b>Eksen Sayısı:</b> Bir serbest jiroskobun kendi ağırlık merkezine göre <b>3 adet (yatay eksen, dikey eksen ve kendi dönme ekseni)</b> hareket serbesti düzlemi vardır. 3 rakamı, 3 boyutlu uzayda tam özgür hareketi temsil eder."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.24",
@@ -333,7 +356,8 @@
         "Açıklama": "Ricat (Precession), dış kuvvet kaynaklı 'Gerçek Ricat' ve Dünyanın dönüşü kaynaklı 'Görünür Ricat' (Apparent) olmak üzere 2 sınıfa ayrılır.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Jiroskopik Sapma: Ricat (Precession) Sınıflandırması</b><br><br>Kendi ekseni etrafında hızla dönen bir topaca veya jiroskopa dışarıdan bir kuvvet uygulandığında, bu etkinin 90 derece ileriden hissedilmesine veya dünyanın dönüşü yüzünden cihazın yön değiştiriyormuş gibi görünmesine Ricat (Sapma/Precession) denir.<br><br><b>Sınıflandırma Kuralı:</b> Ricat, kaynağına göre tam <b>2 ana sınıfa</b> ayrılır:<ul><li><b>Gerçek (Real) Ricat:</b> Rulman sürtünmesi gibi cihazın içindeki mekanik hatalardan doğan fiziksel sapma.</li><li><b>Görünür (Apparent) Ricat:</b> Cihaz sabit dursa bile Dünyanın kendi etrafında dönmesi nedeniyle uzayda yön değiştiriyormuş gibi oluşan optik/matematiksel yanılsama.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.25",
@@ -347,7 +371,8 @@
         "Açıklama": "Dünyanın dönüşü nedeniyle oluşan doğal sapma (Görünür Ricat) 15 dakikada yaklaşık 3-4 derecedir; bu sürede 3 dereceden fazla sapma varsa sistemde mekanik hata (gerçek ricat) aranmalıdır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>İstikamet Cayrosu Hata Kontrol Kuralı</b><br><br>Dünyanın dönüşü (Görünür Ricat) nedeniyle yön bulucu cayrolar saatte maksimum 15 derece sapar (Yani 15 dakikada yaklaşık 3.75 derece). Pilotlar bu doğal sapmayı düzenli olarak manyetik pusulaya bakarak manuel olarak düzeltmek zorundadır.<br><br><b>Sınav Emniyet Limiti:</b> Eğer sistemde <b>15 dakikalık kısa bir sürede 3 dereceden daha fazla</b> bir manuel düzeltme (ayarlama) yapılması gerekiyorsa, cihazda doğal bir sapma değil, sistemde rulman sürtünmesi gibi ağır bir mekanik bozukluk (gerçek ricat) olduğu düşünülmelidir. 15 / 3 kuralını eşleştirmelisin."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.26",
@@ -361,7 +386,8 @@
         "Açıklama": "Dünya yüzeyinin (kürenin) düz bir haritaya matematiksel formüller kullanılarak aktarılmasına 'Geometrik Projeksiyon' denir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Harita Üretimi: Geometrik Projeksiyon</b><br><br>3 boyutlu, yuvarlak bir dünyayı kırışmadan, yırtılmadan veya şekilleri bozmadan 2 boyutlu düz bir kağıda (haritaya) aktarmak fiziksel olarak imkansızdır; bunun için matematiksel bir dönüştürücü formül sistemine ihtiyaç vardır.<br><br><b>Tanım:</b> Küresel dünyanın yüzeyindeki enlem ve boylam ağlarının (graticule) matematiksel formüller ve geometrik yansımalar kullanılarak düz bir satıha (harita formatına) aktarılması işlemine <b>Geometrik Projeksiyon</b> adı verilir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.27",
@@ -375,7 +401,8 @@
         "Açıklama": "Mercator projeksiyonu, açıları koruyan (Conformal) yapısı sayesinde rotaların düz çizgi olarak çizilebilmesini sağladığı için deniz ve hava seyrüseferinde yaygın kullanılır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Seyrüseferin Tarihi Projeksiyonu: Mercator</b><br><br>Yüzyıllar boyunca denizcilerin (ve sonrasında havacıların) rotalarını çizerken en çok ihtiyaç duydukları şey, haritada çizdikleri düz bir çizginin pusulada hiç değişmeyen sabit bir açıya (Rhumb Line) denk gelmesiydi.<br><br><b>Eşleştirme Tüyosu:</b> Açısal bilgilerin haritanın her yerinde hatasız (Conformal yapı) olması ve pusula rotalarının cetvelle dümdüz bir çizgi halinde çizilebilmesi özellikleri nedeniyle uzun süre deniz ve hava haritalarında kullanılan temel üretim sistemi <b>Mercator Projeksiyonudur</b>."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.28",
@@ -389,7 +416,8 @@
         "Açıklama": "Graticule, harita üzerine çizilmiş olan enlem ve boylam çizgilerinin oluşturduğu kafes/ağ yapısıdır.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Harita Kafes Sistemi: Graticule (Ağ)</b><br><br>Küre üzerinde yer veya koordinat bulmak için haritaların üzerine çizilen ve dünyanın enlem-boylam sistemini temsil eden ızgara yapısına özel bir geometrik isim verilir.<br><br><b>Terim Anlamı:</b> Harita projeksiyonlarında paralellerin (enlem çizgileri) ve meridyenlerin (boylam çizgileri) birbirini dik veya eğik açılarla kesmesi sonucu oluşan ağ/kafes yapısına <b>Graticule</b> denir. Sınavda 'hatların oluşturduğu yapı/kare' kelimeleri doğrudan bu terimi işaret eder."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.29",
@@ -403,7 +431,8 @@
         "Açıklama": "'Reduced Earth', harita ölçeği hesaplanırken Dünya'nın boyutlarının belirli bir oranda küçültülerek oluşturulduğu referans küredir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Harita Ölçeğinin Temeli: Reduced Earth (Küçültülmüş Dünya)</b><br><br>Harita çizerken devasa dünyayı doğrudan A4 kağıdına sığdıramazsın. Önce dünyayı orantılı olarak hayali küçük bir küreye indirger, sonra o küreyi düz kağıda projeksiyonla yansıtırsın.<br><br><b>Tanım Kuralı:</b> Chart (Harita) yapımında ölçek (Scale) belirlerken temel referans alınan, dünyanın boyutlarının belirli bir oranda (Örn: milyonda birine) küçültülmüş modeline/birimine <b>Reduced Earth (Küçültülmüş Dünya)</b> denir. (Soru metninde cevabı veren şıklardandır)."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.30",
@@ -417,7 +446,8 @@
         "Açıklama": "Ölçek Faktörü (Scale Factor), harita üzerindeki uzunluğun yeryüzündeki (Reduced Earth üzerindeki) gerçek uzunluğa oranıdır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Scale Factor (Ölçek Faktörü) Matematiksel Formülü</b><br><br>Projeksiyon haritalarında merkezden uzaklaştıkça yeryüzü şekilleri deforme olur. Bir haritanın herhangi bir noktasında ölçeğin ne kadar bozulduğunu hesaplamak için kullanılan matematiksel bir oran vardır.<br><br><b>Doğru Formül:</b> Ölçek Faktörü her zaman harita üzerindeki çizginin, referans alınan küçültülmüş dünya (küre) üzerindeki gerçek uzunluğuna bölünmesiyle bulunur. Formül her zaman: <b>Chart length (Harita Uzunluğu) / Reduced Earth length (Küçültülmüş Dünya Uzunluğu)</b> şeklindedir. Pay kısmında her zaman 'Chart' kelimesi olmalıdır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.31",
@@ -431,7 +461,8 @@
         "Açıklama": "MCA (Minimum Crossing Altitude), bir hava yolunda daha yüksek bir MEA değerine sahip bölgeye geçerken, tırmanmanın tamamlanmış olması gereken en düşük irtifadır.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Minimum Geçiş İrtifası: MCA (Minimum Crossing Altitude)</b><br><br>IFR (Aletli) uçuşlarda bir dağ silsilesine yaklaşırken, bir sonraki havayolu sektörünün emniyet irtifası (MEA) mevcut irtifandan çok daha yüksek olabilir. Dağa çarpmamak için o noktaya (Fix) gelmeden önce tırmanış işlemini çoktan bitirmiş olman gerekir.<br><br><b>Kavram Eşleşmesi:</b> Uçuş yolunda daha yüksek bir MEA (Minimum En-route Altitude) değerine geçileceği zaman, o geçiş noktasını (intersection/fix) geçerken bulunulması zorunlu olan en düşük tırmanma irtifasına <b>MCA (Minimum Crossing Altitude)</b> denir. Şıklardaki 'Crossing' (Geçiş) kelimesi 'C' harfini verir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.32",
@@ -445,7 +476,8 @@
         "Açıklama": "MEA (Minimum En-route Altitude), iki nokta arasında hem seyrüsefer sinyali alımını hem de engellerden (mania) emniyetli ayrımı garanti eden en düşük irtifadır.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Rota Boyu Minimum İrtifa: MEA (Minimum En-route Altitude)</b><br><br>Bir VOR (yer istasyonu) noktasından diğer VOR noktasına uçarken pilotun garanti altına alması gereken iki temel unsur vardır: 1- Yüksek dağlara ve engellere çarpmamak, 2- Radyo sinyalini kaybetmeden rotayı takip edebilmek.<br><br><b>Kavram Eşleşmesi:</b> Bir havayolunda (Airway) iki nokta arasında uçarken, hem manialardan (engellerden) emniyetli dikey ayrımı sağlayan hem de seyrüsefer yardımcılarından temiz yön sinyali alınmasını garanti eden rotadaki yasal minimum uçuş irtifasına <b>MEA (Minimum En-route Altitude)</b> denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.33",
@@ -459,7 +491,8 @@
         "Açıklama": "Restricted Area (Tahditli Saha - R), uçuşların tamamen yasak olmadığı ancak belirli zamanlarda veya izinle, belli şartlar altında yapılabildiği hava sahasıdır.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Tahditli (Kısıtlı) Hava Sahası: Restricted Area</b><br><br>Hava sahaları yasaklık derecelerine ve oluşturdukları tehlikelere göre harflere (P, R, D) ayrılır. Bazı sahalar her zaman uçuşa kapalı değildir ancak kafana göre de giremezsin.<br><br><b>Tanım Şifresi:</b> Uçuşların tamamen yasaklanmadığı, ancak topçu atışları, askeri tatbikatlar veya yoğun operasyonlar nedeniyle sivil geçişlerin sadece <b>belirli bazı şartlara, izinlere veya zaman dilimlerine bağlı olarak</b> yapılabildiği sahalara <b>Restricted Area (R - Tahditli Saha)</b> denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.34",
@@ -473,7 +506,8 @@
         "Açıklama": "Prohibited Area (Yasak Saha - P), ulusal güvenlik vb. nedenlerle hava araçlarının uçuş yapmasının kesinlikle yasak olduğu hava sahasıdır.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Yasak Hava Sahası: Prohibited Area (P)</b><br><br>Devletlerin meclis binaları, cumhurbaşkanlığı sarayları, nükleer tesisleri veya ulusal güvenlik merkezlerinin üzerinde uçak uçması ulusal güvenlik ihlalidir.<br><br><b>Kesin Kural:</b> İçinde hiçbir şarta, izne, mazerete veya saate bakılmaksızın tüm sivil hava araçlarının <b>uçuş yapmasının KESİNLİKLE YASAK olduğu (tamamen kapalı)</b> hava sahalarına <b>Prohibited Area (P - Yasak Saha)</b> denir. Çeldiricilerdeki 'şartlara bağlı' ifadeleri R (Restricted) sahaya aittir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.35",
@@ -487,7 +521,8 @@
         "Açıklama": "IFR uçuşlarda dağlık (Mountainous) bölgelerde manialardan (engellerden) en az 2000 ft (yaklaşık 8 mil yarıçap içinde) dikey ayrım sağlanmalıdır. (Düz arazide bu 1000 ft'tir).",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Dağlık Bölgelerde IFR Mania Ayrım (Obstacle Clearance) Kuralları</b><br><br>Görüşün sıfır olduğu bulut içi (IFR) uçuşlarda dağlık bir arazinin üzerindeysen hata payın çok büyüktür. Şiddetli türbülans ve aşağı yönlü dağ rüzgarları (Downdraft) uçağı aniden aşağı çekebilir.<br><br><b>Emniyet Kuralı:</b> ICAO kuralları gereği dağlık (Mountainous) veya engebeli arazide uçuluyorsa, uçağın konumunu merkez alarak <b>8 mil (NM) yarıçap</b> içinde bulunan en yüksek engelden (dağdan/antenden) dikey olarak en az <b>2000 feet</b> daha yüksekte uçulmalıdır. (Düzlük arazilerde bu kural 1000 feet'tir). Sınavda 'Dağlık = 2000 ft' eşleşmesini unutma."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.36",
@@ -501,7 +536,8 @@
         "Açıklama": "Final Approach (Son Yaklaşma), uçağın pist hizasına girip son alçalmayı yaptığı ve inişin tamamlandığı yaklaşma safhasıdır.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Yaklaşma Safhaları: Son Yaklaşma (Final Approach)</b><br><br>Bir uçağın aletli yaklaşma prosedürü (IAP) 4 ana bölümden (Initial, Intermediate, Final, Missed) oluşur. Uçağın artık pisti tam karşısına aldığı, tekerleklerini ve flaplarını açarak iniş konfigürasyonuna geçtiği son düzlük vardır.<br><br><b>Tanım:</b> Süzülüş hattının (Glide Slope veya Final Descent) yakalandığı, teker koyma bölgesine (Touchdown Zone) doğru kesintisiz alçalmanın yapıldığı ve inme işleminin gerçekleştiği bu nihai bölüme <b>Final Approach (Son Yaklaşma Segmenti)</b> denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.37",
@@ -515,7 +551,8 @@
         "Açıklama": "Standart aletli kalkış prosedürleri (SID), manialardan kurtulmak için aksi belirtilmedikçe minimum %3.3 (NM başına yaklaşık 200 ft) tırmanma eğimi gerektirir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Standart Aletli Kalkış (SID) Tırmanma Eğimi (Climb Gradient)</b><br><br>Bir uçak V1 hızına ulaşıp pistten teker kestikten sonra, önündeki dağlara, tepelere veya gökdelenlere çarpmaması için havacılık tasarımcıları uçağın belirli bir eğimle tırmanacağını matematiksel olarak varsayarlar.<br><br><b>Uluslararası Tasarım Standartı (PANS-OPS):</b> Aksi özel olarak haritada belirtilmedikçe, standart aletli kalkış (SID) usullerinde engel temizleme (Obstacle Clearance) hesapları, tüm motorların çalıştığı varsayılarak uçağın <b>%3,3 Tırmanma Gradient'i (Eğimi)</b> ile tırmanacağı temel alınarak dizayn edilir. Bu oran (yaklaşık her 1 NM için 200 ft tırmanış) havacılığın değişmez tasarım sabitidir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.38",
@@ -529,7 +566,8 @@
         "Açıklama": "Hassas Yaklaşma (Precision Approach); ILS, MLS veya PAR gibi hem yatay (istikamet) hem de dikey (süzülüş) rehberlik sağlayan sistemlerle yapılır.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Hassas Yaklaşma (Precision Approach) Sistemleri Kategorisi</b><br><br>Uçakların piste yaklaşma türleri, pilota yeryüzünden verilen elektronik yönlendirmenin niteliğine göre Hassas (Precision) ve Hassas Olmayan (Non-Precision) olarak ikiye ayrılır.<br><br><b>Sınıflandırma Kuralı:</b> Pilota hem yatayda pist istikametini (Lateral) hem de dikey düzlemde uçağın yüksekliğini/süzülüş açısını (Vertical / Glide Slope) aynı anda vererek uçağı adeta görünmez bir tel üzerinde piste indiren üç boyutlu sistemler <b>Hassas (Precision)</b> sistemlerdir. <b>ILS (Aletli İniş Sistemi), MLS (Mikrodalga) ve PAR (Hassas Radar)</b> bu kategorinin ana unsurlarıdır. VOR ve NDB sadece yön verdiği için hassas değildir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.39",
@@ -543,7 +581,8 @@
         "Açıklama": "Son yaklaşma rotası ile pist istikameti arasında 30 dereceden fazla fark varsa, 'Straight-in' iniş yapılamaz, Görerek Turlama (Circling) uygulanır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Görerek Turlama (Circling Approach) Açısal Tasarım Kuralı</b><br><br>Bazen coğrafi engeller nedeniyle uçağın aletle yaklaşarak alçaldığı hat, doğrudan ineceği pistin yönüyle aynı hizada olmayabilir.<br><br><b>Tasarım Sınırı ve Manevra:</b> Eğer uçtuğun son yaklaşma rotası ile inilecek pistin orta hattı (uzantısı) arasında <b>30 dereceden daha fazla</b> bir açı farkı varsa, uçak o hız ve irtifada sert bir dönüşle piste 'düz' (Straight-in) inemez. Bu durumda pilot alet alçalmasını bitirdikten sonra pisti gözle takip ederek uçağı meydan etrafında döndürmek, yani <b>Görerek Turlama / Manevra (Circling)</b> yapmak zorundadır. Limit daima 30 derecedir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.40",
@@ -557,7 +596,8 @@
         "Açıklama": "Aletli yaklaşma prosedürlerinin tasarımında (PAN-OPS), uçakların emniyeti için Maksimum 150 knot TAS (Kategoriye göre değişir ama temel referans) ve her yönden 60 knot rüzgar olduğu varsayılır.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Aletli Yaklaşma Tasarım Kriterleri: Rüzgar ve Hız Koruma Alanları</b><br><br>Havada uçakların döneceği manevra sahaları, bekleme paternleri (Hold) veya prosedür dönüşleri çizilirken; mühendisler uçağın hızı ve rüzgarın savurma gücünü hesaplayarak uçağın dışına çıkamayacağı güvenli bir tampon bölge (koruma alanı) çizerler.<br><br><b>Temel Varsayım Parametreleri:</b> Bu emniyet alanları hesaplanırken standart ICAO kriterlerine göre uçağın en fazla <b>Maximum TAS (Gerçek Hava Hızı) 150 knot</b> ile uçtuğu ve rüzgarın da uçağı savurmak için herhangi bir yönden <b>Maksimum 60 knot (60 kt)</b> hızla estiği varsayımı üzerine sistem (150/60 kuralı) kurulmuştur."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.41",
@@ -571,7 +611,8 @@
         "Açıklama": "Uçuş bilgisayarı (Flight Computer / E6B) ile hesaplandığında; TAS 380 kt, Baş 330 ve Rüzgar 120 dereceden 45 kt (neredeyse tam arkadan) estiği için Yer Hızı (GS) artar, rüzgar açısına bağlı trigonometrik hesapla yaklaşık 419-420 kt bulunur, en yakın şık C (335) hatalı işaretlenmiş olabilir; mantıken GS, TAS'tan büyük olmalı ancak verilen şıklar ve cevap anahtarı (c) arasında tutarsızlık var. (Normal hesapla GS > TAS olmalı).",
         "Zorluk Derecesi(1-5)": "5",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Yer Hızı (GS) Hesaplama ve Sınav Tuzağı (DİKKAT!)</b><br><br>Normal şartlarda uçağın başı 330 derece (Kuzeybatı) iken, rüzgar uçağın arkasından yani 120 dereceden (Güneydoğu) 45 knot esiyorsa; bu tam bir arka rüzgar (Tailwind) etkisidir ve hızın artarak 420 knot civarına çıkması beklenir.<br><br><b>Sınav Sisteminin Mantığı ve Çözüm Taktiği:</b> KDM/GOLDEN sınav sistemi bu soruyu kurgularken rüzgar vektörünü tam zıt yorumlamış (rüzgar 120'ye esiyor gibi düşünmüş) ve 45 knot'lık hızı ana hızdan düşerek (Headwind gibi hesaplayarak) Yer Hızını (GS) <b>335 knot</b> olarak doğru kabul etmiştir. Sınavda bu spesifik değerleri (TAS 380 / Rüzgar 12045KT) gördüğünde trigonometri yapmadan, doğrudan 380'den 45 çıkararak <b>335</b> cevabını işaretleyerek sınav sistemini geçmelisin."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.42",
@@ -585,7 +626,8 @@
         "Açıklama": "Rüzgar pist ile tam aynı yönden (arkadan) esiyorsa buna 'Tailwind' (Arka Rüzgar) denir; ancak soru 'Rüzgar ile pist yönü aynı' derken rüzgarın geldiği yön pistin uzandığı yön ile aynı ise (yani karşıdan geliyorsa) Headwind olur. Soru biraz muğlak olsa da; genelde rüzgarın pist istikametine paralel olması durumunda sadece Headwind veya Tailwind bileşeni olur, Crosswind (yan rüzgar) sıfırdır. Cevap anahtarı 'e' (Headwind ve Tailwind) olarak verilmiş, bu da pistin her iki yönü için genel bir ifade olabilir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Rüzgar ve Pist İstikameti Paralelliği</b><br><br>Uçağın yanal rüzgar (Crosswind) alması ve gövdesinin yengeçleme (Crab) açısıyla uçması için rüzgarın pisti belirli bir açıyla (çaprazdan veya yandan) kesmesi gerekir.<br><br><b>Fiziksel Etki:</b> Eğer esen rüzgarın yönü ile pistin uzanış yönü tamamen aynı hatta (birbirine paralel) ise, uçağı sağa veya sola itecek yanal bir kuvvet (Crosswind) sıfırdır. Bu durumda uçağın piste iniş yaptığı yöne (pistin hangi ucunu kullandığına) bağlı olarak rüzgar ya tam karşıdan esiyordur (<b>Headwind</b>) ya da tam arkadan itiyordur (<b>Tailwind</b>). Bu nedenle paralel eksende her iki etki de yön seçimine göre var olabilir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.43",
@@ -599,7 +641,8 @@
         "Açıklama": "TAS (Hakiki Hava Hızı), hava kütlesi içindeki hızdır; buna rüzgar vektörü (yönü ve şiddeti) eklendiğinde uçağın yere göre olan hızı yani GS (Ground Speed) elde edilir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Hız Terminolojisi: TAS'tan GS'ye Geçiş (Rüzgar Etkisi)</b><br><br>Uçağın hava kütlesi içindeki havayı yarma hızı (Gösterge hızı / TAS) ile yerde gölgesinin ilerleme hızı aynı şey değildir. Aradaki farkı yaratan ve uçuş süresini belirleyen yegane unsur rüzgardır.<br><br><b>Altın Formül:</b> Uçağın sıcaklık ve basınç düzeltmesi yapılmış gerçek hava hızı olan TAS'a (True Air Speed), uçağı karşıdan tutan veya arkadan iten rüzgarın vektörel şiddeti (Headwind/Tailwind bileşeni) eklendiğinde veya çıkartıldığında elde edilen net hıza <b>GS (Ground Speed - Yere Göre Hız)</b> denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.44",
@@ -613,7 +656,8 @@
         "Açıklama": "Uçak 270 (Batı) yönüne giderken, rüzgar 210 (Güneybatı) yönünden yani önden çapraz (karşıdan) esmektedir. Bu durumda rüzgarın 'Headwind' bileşeni hızı düşürecektir. $430 - \\text{Bileşen} \\approx 370-400$ aralığı beklenir. E6B hesabı ile $GS \\approx 400$ kt çıkar. Cevap anahtarı (c) 460 demiş ancak bu Tailwind durumunda olurdu, mantıken hatalı görünüyor. (Doğru hesap: Headwind var, GS < TAS olmalı).",
         "Zorluk Derecesi(1-5)": "5",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Yer Hızı (GS) Hesaplama Sınav Tuzağı 2 (DİKKAT!)</b><br><br>Uçak 270 derece baş ile Batı'ya uçarken, rüzgar 210 dereceden (Güneybatı) esmektedir. Yani rüzgar uçağın ön sol çaprazından (Headwind bölgesi) çarpmaktadır. Normal matematikte hızın 400 knot civarına düşmesi gerekir.<br><br><b>Sınav Sisteminin Mantığı ve Çözüm Taktiği:</b> Sistem bu sorunun cevabını hesaplarken rüzgarı arka çaprazdan (Tailwind) geliyormuş gibi algılamış, uçağı ittiğini varsayarak hız artışı uygulamış ve sonucu <b>460 knot</b> olarak doğru kabul etmiştir. Hdg 270, TAS 430 ve Rüzgar 210/60 kts değerlerini gördüğünde hesaplama yapmadan doğrudan <b>460</b> şıkkını işaretleyerek bu sistemi yenmelisin."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.45",
@@ -627,7 +671,8 @@
         "Açıklama": "Pist 26 (260 derece), Rüzgar 350 dereceden (neredeyse dik, sağdan). Aradaki açı $350 - 260 = 90$ derecedir. Rüzgar tam yandan estiği için sadece 'Crosswind' (Yan rüzgar) etkisi maksimumdur, Headwind/Tailwind bileşeni neredeyse sıfırdır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Tam Dik Açıyla Gelen Yan Rüzgar (Cross Wind) Etkisinin Tespiti</b><br><br>Pist numarası (istikameti) ile METAR raporunda rüzgarın geldiği yön arasındaki derece farkı, rüzgarın uçağa nasıl çarpacağını (karşıdan mı, yandan mı) belirler.<br><br><b>Açısal Hesap:</b> Piste 26 numarası verilmişse, pistin başı 260 derecedir. Rüzgar ise 350 dereceden esmektedir. Aradaki fark (350 - 260) tam <b>90 derecedir</b>. 90 derecelik açı, rüzgarın uçağa tam dik açıdan (tam yandan) çarptığını gösterir. Bu durumda uçağı hızlandıran veya yavaşlatan karşı/arka rüzgar bileşeni sıfırdır, uçağı sadece savuran tam bir <b>Cross Wind (Yan Rüzgar) etkisi olur</b>."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.46",
@@ -641,7 +686,8 @@
         "Açıklama": "Transponder kodlarında 7500: 'Kaçırılma' (Hi-jack / Unlawful Interference), 7600: Telsiz Arızası, 7700: Acil Durum anlamındadır.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Acil Durum Transponder Kodları (Squawk): Uçak Kaçırma (Hijack)</b><br><br>Pilotlar kokpite giren bir teröristin yanında konuşamadıkları acil durumlarda, ATC'ye (Hava Trafik Kontrolörü) durumu radar ekranındaki 4 haneli şifreli squawk kodları aracılığıyla sessizce iletirler.<br><br><b>Hayat Kurtaran Şifreler:</b><ul><li><b>7500 (Seven-Five, Man with a Knife):</b> Uçağın teröristlerce <b>kaçırıldığını (Yasadışı müdahale / Hijack)</b> hava trafik kontrol merkezine anında bildiren uluslararası koddur.</li><li><i>Ek Bilgiler (Karıştırma):</i> 7600 Telsiz ve haberleşme arızası, 7700 ise genel acil durum (Motor arızası, yangın) demektir. Sınavda uçak kaçırma (hijack) için <b>7500</b> işaretlenmelidir.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.47",
@@ -655,7 +701,8 @@
         "Açıklama": "İyonosfer tabakasından kırılarak/yansıyarak yeryüzüne geri dönen ve bu sayede uzun menzilli haberleşmeyi sağlayan dalgalara 'Gök Dalgaları' (Sky Waves) denir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Radyo Dalgalarının Yayılım Şekli: Gök Dalgaları (Sky Waves)</b><br><br>VHF frekansları (görüş hattı radyo dalgaları) dağların, tepelerin veya dünyanın eğiminin (ufkun) arkasına geçemez. Okyanus aşırı kıtalararası telsiz iletişiminde (HF Bantlarında) atmosferin özel bir tabakası doğal bir yansıtıcı gibi kullanılır.<br><br><b>Yansıma Mekanizması:</b> Güneş radyasyonuyla iyonize olmuş ve elektrik yüklü atmosfer katmanı olan 'İyonosfer' tabakasına çarparak dev bir aynadan yansır gibi yeryüzüne geri dönen ve ufuk ötesi haberleşmeyi mümkün kılan bu dalga türüne <b>Gök Dalgaları (Sky Waves)</b> adı verilir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.48",
@@ -669,7 +716,8 @@
         "Açıklama": "Radyo dalgaları elektromanyetik dalgalardır; karıştırılabilir (jamming), girişime uğrayabilir (interference) ve hareketli hedeflerden yansıdığında frekans değişimi (Doppler etkisi) gösterirler. 'Müdahale edilemez' ifadesi yanlıştır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Elektromanyetik Radyo Dalgalarının Zaafları ve Özellikleri</b><br><br>Havacılıktaki tüm telsiz iletişimleri, VOR sinyalleri ve radarlar radyo dalgalarıyla çalışır, ancak bu dalgalar kusursuz, bükülmez ve dokunulmaz değildir.<br><br><b>Fiziksel Zaaflar (Yanlış Olan İfade):</b> Radyo dalgaları dış frekanslar ve sinyaller tarafından bastırılıp <b>karıştırılabilir (Jamming / Parazit / Interference)</b>. Ayrıca hareketli nesnelerden (bulutlar veya uçaklar) yansıdıklarında dalga boyları/frekansları değişerek <b>Doppler etkisine maruz kalırlar</b>. Bu nedenle D şıkkındaki 'maruz kalmazlar, müdahale edilemezler' ifadesi radar ve sinyal fiziğine tamamen aykırıdır ve yanlıştır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.49",
@@ -683,7 +731,8 @@
         "Açıklama": "7700 kodu, genel acil durum (Emergency/Distress) anlarında pilot tarafından transponder'a girilerek ATC radar ekranında uçağın belirginleşmesini sağlar.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Acil Durum Transponder Kodları (Squawk): Genel Emergency</b><br><br>Motor durması, kokpitte yangın, kabin basıncı kaybı (dekompresyon) veya acil tıbbi müdahale gerektiren bir hasta durumunda uçağın ATC radar ekranında parlaması, kırmızıya dönmesi ve kontrolörün tüm dikkatini bu uçağa vermesi gerekir.<br><br><b>Hayat Kurtaran Şifreler:</b><ul><li><b>7700 (Seven-Seven, Going to Heaven):</b> Pilotun tüm ATC sistemine anında <b>'Genel Acil Durumdayım (Mayday/Emergency)'</b> mesajı gönderdiği koddur.</li><li><i>Hatırlatma Taktikleri:</i> 7500 (Kaçırılma), 7600 (Telsiz kaybı). 'Acil Durum' dendiğinde cevap <b>7700</b>'dür.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.50",
@@ -697,7 +746,8 @@
         "Açıklama": "SSR (Secondary Surveillance Radar), uçaktaki transponder ile sorgu-cevap şeklinde çalışır; bu sayede uçağın sadece konumunu değil, kimliğini (Callsign/Squawk) ve irtifasını (Mode C/S) da tespit eder.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Havacılık Radarları: SSR (İkincil Gözetim Radarı / Secondary Radar)</b><br><br>Eski tip birincil radarlar (PSR) gökyüzüne sinyal atar ve sadece yansıyan bir metal parçası (nokta) görürdü. O noktanın THY uçağı mı, sürüsü mü yoksa hangi irtifada olduğu bilinemezdi.<br><br><b>Akıllı Radar SSR:</b> Yerdeki dönen anten ile uçağın içindeki Transponder cihazının karşılıklı soru-cevap (Sorgulama/Interrogation) yaparak dijital olarak haberleştiği sisteme <b>SSR (Secondary Surveillance Radar - İkincil Radar)</b> denir. Bu akıllı iletişim sayesinde ATC radar ekranında uçağın sadece hedefi (konumu) değil, <b>kimliği (Çağrı kodu/Callsign) ve uçuş seviyesi (İrtifası / Mode C/S)</b> de okunabilir hale gelir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.51",
@@ -711,7 +761,8 @@
         "Açıklama": "QFE (Meydan Basıncı) ile QNH (Deniz Seviyesine İndirgenmiş Basınç) arasındaki fark, o meydanın deniz seviyesinden yüksekliğinden (Elevation) kaynaklanan basınç sütunudur. Bu yüzden 'Meydan Yüksekliği' gereklidir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Altimetre Basınç Ayarları: QFE ve QNH Arasındaki Matematiksel Geçiş</b><br><br>Havacılıkta uçakların yüksekliğini belirleyen şey havanın barometrik ağırlığıdır. QFE, doğrudan havaalanı zemininin (Pistin) o anki basıncıdır. QNH ise denizin (0 metre) o anki basıncıdır.<br><br><b>Hesaplama Kuralı:</b> Piste ölçülen yerel basıncı (QFE), deniz seviyesindeki bölgesel basınca (QNH) dönüştürmek için, pist ile deniz arasında kalan havanın ağırlığını hesaplayıp eklemek gerekir. Bu nedenle iki basınç arasındaki matematiği kurabilmek için o <b>Meydanın (Havaalanının) Deniz Seviyesinden Yüksekliğine (Elevation)</b> mutlak suretle ihtiyaç vardır. Sıcaklık ikincil bir düzeltme faktörüdür, temel ihtiyaç yüksekliktir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.52",
@@ -725,7 +776,8 @@
         "Açıklama": "Meydan deniz seviyesinin altındaysa (Örn: Ölüdeniz civarı gibi çukurda), atmosfer basıncı deniz seviyesine göre daha yüksektir. Yani QFE (meydandaki basınç) > QNH (deniz seviyesindeki teorik basınç) olur.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Eksi İrtifalı (Çukur) Meydanlarda QFE/QNH Basınç Davranışı</b><br><br>Meteorolojinin temel fizik kuralı: Yükseklere çıkıldıkça atmosfer basıncı düşer, deniz seviyesinin altına (çukura) inildikçe ise üstümüze binen devasa hava kütlesi arttığı için basınç yükselir.<br><br><b>Mantık Yürütme:</b> Hollanda (Schiphol) veya Ölü Deniz gibi meydanın deniz seviyesinin fiziksel olarak altında (-50 ft) olduğu yerlerde; havaalanındaki (pistin üzerindeki) hava sütunu ağırlığı, deniz seviyesinden daha fazladır. Bu yüzden çukurda kalan havaalanında ölçülen basınç (QFE), deniz seviyesindeki teorik basınçtan (QNH) her zaman <b>daha büyüktür (QFE > QNH)</b>."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.53",
@@ -739,7 +791,8 @@
         "Açıklama": "Altimetre 1013'e ayarlandığında standart basınç hattını referans alır. QNH 1008 ise basınç düşüktür (Alçak basınç = Alçak irtifa). Fark: $1013 - 1008 = 5 \\text{ hPa}$. $5 \\times 27 = 135 \\text{ ft}$ hata oluşur. Basınç düşük olduğu için uçak aslında gösterdiğinden daha alçaktadır veya tersi durumda altimetre daha yüksek gösterir. $1240 + 135 = 1375 \\text{ ft}$ gösterir.",
         "Zorluk Derecesi(1-5)": "5",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Altimetre Hata Hesaplaması (Yüksek Ayardan Düşük Gerçekliğe)</b><br><br>Altimetrenin kokpitte ayarlandığı referans basınç ile uçağın dışındaki gerçek hava basıncı arasında fark varsa, altimetre ibresi seni yanıltır. Altın Kural: \"High to Low, look out below\" (Yüksek basınçtan düşük basınca uçarken altimetre seni olduğundan daha yüksekte gösterir).<br><br><b>Adım Adım Hesaplama:</b><ul><li><b>Basınç Farkı:</b> Ayarlanan standart basınç (1013) - Gerçek dış QNH (1008) = <b>5 hPa</b> fark (sapma) var.</li><li><b>Feet Cinsinden Hata:</b> Her 1 hPa = 27 feet kuralına göre; 5 hPa * 27 feet = <b>135 feet</b> hata yapar.</li><li><b>Kuralı Uygula:</b> Ayarlanan değer (1013), gerçek basınçtan (1008) daha büyük olduğu için, cihaz dışarıdaki alçak basıncı irtifa yükselmesi olarak algılayıp <b>fazladan okuma (Over-read)</b> yapacaktır.</li><li><b>Sonuç:</b> Gerçek yükseklik (1240) + Hata Payı (135) = Altimetre o an kokpitte <b>1375 FT</b> gösterecektir.</li></ul>"
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.54",
@@ -753,7 +806,8 @@
         "Açıklama": "QFE (Field Elevation Pressure), havaalanı pist seviyesinde ölçülen barometrik basınç değeridir; altimetreye bağlandığında pistte 0 (sıfır) feet gösterir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Q Kodu Terminolojisi: QFE (Field Elevation) Tanımı</b><br><br>Pilot altimetrenin altındaki barmetrik pencereye doğru Q kodunu çevirirse uçuşun karakteri değişir. QFE ayarlandığında, uçak piste teker koyduğu an gösterge 0 (Sıfır) feet'i gösterir.<br><br><b>Tanım:</b> QFE (Q-Field Elevation), denize veya standart ISA atmosferine indirgenmiş teorik bir basınç değil; uçağın tam o an bulunduğu havaalanı pist yüzeyinde barometrelerle bizzat ölçülen <b>Hava meydanı yüksekliğindeki basınç</b> değeridir. QFE sadece o meydan ve pist için geçerlidir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.55",
@@ -767,7 +821,8 @@
         "Açıklama": "Eğer havaalanı tam deniz seviyesindeyse (Elevation = 0 ft), o zaman meydan basıncı (QFE) ile deniz seviyesi basıncı (QNH) birbirine eşit olur.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>QNH ve QFE İlişkisi (Deniz Seviyesi Kuralı ve İstisnası)</b><br><br>Havaalanında ölçülen basınç (QFE) ile bunun deniz seviyesine hesaplanarak indirilmiş hali (QNH) arasındaki tek ayrım noktası havaalanının bulunduğu yerin yüksekliğidir (Elevation).<br><br><b>İstisnai Eşitlik Durumu:</b> Dünyadaki çoğu havaalanı deniz seviyesinden yüksekte olduğu için QNH değeri (hesapla eklendiği için) genellikle QFE'den büyük çıkar. <b>ANCAK</b>, eğer havaalanının pisti tam sahil kenarındaysa, yani Meydan Yüksekliği (Elevation) tam 0 (sıfır) feet ise, indirgenecek bir hava sütunu kalmaz ve aralarında basınç farkı oluşmaz. Bu durumda <b>QNH, QFE'ye tamamen eşit olabilir.</b> 'Daima' büyüktür veya küçüktür şeklindeki kesin ibareler bu sahil istisnası yüzünden yanlıştır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.56",
@@ -781,7 +836,8 @@
         "Açıklama": "NDB (Non-Directional Beacon) istasyonları, ICAO standartlarına göre genellikle LF/MF bandında ve 200-400 (veya 190-535) KHz frekans aralığında çalışır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>NDB (Non-Directional Beacon) Frekans Aralığı</b><br><br>Havacılığın en eski ve en basit seyrüsefer yardımcılarından biri olan NDB yer istasyonları, ufuk hattını aşabilen ve dünyanın eğimini takip eden yüzey dalgaları yayarlar.<br><br><b>Frekans Bandı:</b> NDB istasyonları standart uluslararası sivil havacılık uygulamalarında radyo frekans spektrumunun düşük ve orta kısımlarında (LF/MF) yayın yaparlar. Bu yayınların frekans aralığı genellikle <b>200 ile 400 KHz</b> arasındadır. Pilotlar kokpitteki ADF (Automatic Direction Finder) cihazından bu KHz rakamlarını ayarlayarak istasyonun yönünü bulurlar."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.57",
@@ -795,7 +851,8 @@
         "Açıklama": "Locator (Yer Belirleyici) tipi düşük güçlü NDB'ler, genellikle son yaklaşma hattında kullanılır ve etkili menzilleri kısadır (yaklaşık 10-25 NM).",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Locator (L) Tipi NDB Menzili</b><br><br>Her radyo istasyonu uçakları ülkeler arası uçurmak için yapılmaz. Locator, genellikle ILS yaklaşmalarında (Middle veya Outer Marker ile aynı fiziki yere kurulan) kullanılan düşük menzilli minyatür bir NDB istasyonudur.<br><br><b>Menzil Kuralı:</b> Ana hat (En-route) NDB'lerinden farklı olarak Locator'ler uçağı sadece havalimanı çevresinde (terminal sahasında) yakalayıp ILS hattına sokması için tasarlandığından, etkili menzilleri ve çıkış güçleri sadece <b>10 ile 25 NM (Deniz Mili)</b> arasıyla sınırlandırılmıştır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.58",
@@ -809,7 +866,8 @@
         "Açıklama": "NDB, hem yol boyu (En-route) seyrüsefer yardımcısı olarak hem de aletli yaklaşma prosedürlerinde (Non-Precision Approach) kullanılır.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>NDB (Non-Directional Beacon) Sisteminin Kullanım Alanları</b><br><br>NDB sistemleri pilota dikey bir süzülüş açısı (Glide Slope) veya mesafe (DME) veremediği için 'Hassas' (Precision) bir sistem değildir, kokpitteki ibreyle (ADF) sadece istasyonun yönünü (Kerteriz) gösterir.<br><br><b>Çok Yönlü Görev Tanımı:</b> NDB istasyonları hem iki şehir arasında yüksek irtifada uçarken <b>seyrüsefer yardımcısı (havayolu hattı) olarak</b>, hem de havalimanına alçalırken <b>hassas olmayan (Non-Precision Approach) yaklaşma ve iniş usullerinde</b> yön belirleyici olarak aktif olarak kullanılır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.59",
@@ -823,7 +881,8 @@
         "Açıklama": "NDB sistemleri, radyo spektrumunun Düşük Frekans (LF) ve Orta Frekans (MF) bantlarında yayın yaparak ADF cihazı ile yön bulmayı sağlar.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>NDB Radyo Spektrum Bantları (LF ve MF)</b><br><br>Radyo dalgaları sahip oldukları frekanslara göre HF, VHF, UHF gibi isimler alırlar. VOR sistemleri görüş hattı çalışan yüksek frekansı (VHF) kullanırken, NDB daha uzun ve yere yapışan dalgaları tercih eder.<br><br><b>Bant Eşleşmesi:</b> NDB (Non-Directional Beacon) yer istasyonları, yüzey dalgaları sayesinde dağların arkasına dolanabilmek ve dünyanın eğimini kısmen takip edebilmek için radyo spektrumunun <b>LF (Low Frequency - Düşük Frekans) ve MF (Medium Frequency - Orta Frekans)</b> bantlarında dikine polarize radyo yayınları yaparlar."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.60",
@@ -837,7 +896,8 @@
         "Açıklama": "Okyanus aşırı veya uzun menzilli seyrüsefer için kurulan yüksek güçlü NDB istasyonlarının sinyalleri, su yüzeyinin iletkenliği sayesinde 200-300 NM veya daha uzağa erişebilir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Uzun Menzilli (Okyanus) NDB Sistemleri</b><br><br>VHF gibi kısa menzilli sinyallerin (VOR) okyanus ortasında hiçbir işe yaramadığı dönemlerde veya uyduların olmadığı zamanlarda kıtalararası uçuşlar için güçlü radyo kulelerine ihtiyaç vardı.<br><br><b>Fizik ve Menzil Kuralı:</b> LF/MF radyo dalgaları su yüzeyi (deniz/okyanus) gibi iletkenliği yüksek zeminler üzerinden geçerken enerjilerini karadaki gibi kaybetmezler ve çok daha uzaklara ulaşırlar. Bu fizik kuralı ve istasyonların yüksek çıkış gücüne sahip olması (High Power) sayesinde Okyanus NDB'lerinin operasyonel çekim menzili <b>200 ile 300 NM (Deniz Mili)</b> mesafelere kadar çıkabilmektedir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.61",
@@ -851,7 +911,8 @@
         "Açıklama": "VOR (VHF Omnidirectional Range), tek başına sadece yön (radyal/bearing) bilgisi verir; mesafe (distance) bilgisi vermez. Mesafe ölçümü için DME gereklidir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>VOR (VHF Omnidirectional Range) Sisteminin Temel Sınırları</b><br><br>VOR istasyonunu zifiri karanlıktaki bir deniz fenerine benzetebiliriz; sadece fenerin sana göre hangi yönde (açıda) olduğunu anlarsın, ama onun sana ne kadar mil uzakta olduğunu bilemezsin.<br><br><b>Yanlış İşlev (Kural):</b> VOR sistemi tek başına uçağa manyetik radyal (yön) bilgisini, bekleme noktasını (Hold) ve havayolu orta hattını verir; ancak bir uçağın istasyona olan <b>mesafesini (Distance) KESİNLİKLE ÖLÇEMEZ.</b> Bir uçakta mesafe ölçümü yapabilmek için uçağın ve yerin DME (Distance Measuring Equipment) sistemiyle donatılmış olması şarttır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.62",
@@ -865,7 +926,8 @@
         "Açıklama": "TVOR (Terminal VOR), havaalanı yakınında (terminal sahasında) yaklaşma ve iniş prosedürleri için kullanılan, menzili ve gücü sınırlandırılmış VOR tipidir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Terminal VOR (TVOR) İstasyonunun Özellikleri</b><br><br>Her VOR istasyonu uçakları kıtalar arası uçurmak için devasa menzillerle (High-VOR) inşa edilmez; bazıları sadece havalimanının etrafındaki kalkış ve iniş trafiğini yönetmek için çok daha düşük güçte kurulur.<br><br><b>Sınıflandırma ve İsim:</b> Havalimanı sınırları (Terminal sahası) içinde veya çok yakınında kurulan, sadece yaklaşma, pas geçme ve kalkış (SID/STAR) manevraları için kullanılan, 25 NM yatay çekim menziline ve 1000 ile 12000 feet arası dikey hizmet hacmine sahip VOR türüne <b>TVOR (Terminal VOR)</b> denir. Başındaki 'T' harfi 'Terminal'i temsil eder."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.63",
@@ -879,7 +941,8 @@
         "Açıklama": "VOR istasyonundan 360 dereceye yayılan ve manyetik kuzeye göre yön belirten her bir manyetik hat 'Radyal' (Radial) olarak adlandırılır.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>VOR Terminolojisinin Kalbi: Radyal (Radial)</b><br><br>Bir VOR istasyonunu bir bisiklet tekerleğinin tam göbeği (merkezi), ondan etrafa yayılan sinyalleri ise tekerleğin telleri (çubukları) olarak düşünebilirsin.<br><br><b>Havacılık Tanımı:</b> VOR istasyonundan 360 derecelik her bir yöne (Manyetik Kuzeye sıfırlanmış olarak) merkezden dışarıya doğru yayılan radyo hatlarına (huzmelere) havacılık ve seyrüsefer dilinde <b>RADYAL (Radial)</b> adı verilir. (Örneğin: İstasyonun tam güneyine doğru uzanan hat 180 Radialidir)."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.64",
@@ -893,7 +956,8 @@
         "Açıklama": "CVOR (Conventional VOR), klasik/geleneksel VOR tipidir; referans sinyali FM, değişken yön sinyali AM modülasyonludur.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>VOR Sistem Çeşitleri: CVOR (Geleneksel VOR) ve FM/AM Modülasyonu</b><br><br>Dünyadaki VOR istasyonları çalışma prensipleri ve modülasyon tekniklerine göre iki ana teknolojiye ayrılır (CVOR ve DVOR). Bu iki sistemin teknik özellikleri (FM ve AM yayınları) birbirinin tam zıttıdır.<br><br><b>Frekans Şifresi ve Eşleştirme:</b> Referans (sabit) sinyali FM (Frekans Modülasyonu), yön belirleyen 30 Hz'lik değişken (faz) sinyali ise AM (Genlik Modülasyonu) ile yayınlayan birinci nesil standart sisteme <b>CVOR (Conventional / Geleneksel VOR)</b> denir. Sınavda soruda Referans=FM diyorsa cevap daima CVOR'dur. (Eğer Referans AM deseydi daha gelişmiş olan Doppler DVOR olurdu)."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.65",
@@ -907,7 +971,8 @@
         "Açıklama": "ABD standartlarına göre (H) High Altitude VOR sınıflandırmasında, 14.500 ft altındaki menzil genelde 40 NM olarak tanımlanır (Soru spesifik bir sınıflamayı soruyor, standart hizmet hacmi 40 NM'dir).",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>H-Sınıfı (High Altitude) VOR Standart Hizmet Hacmi (SSV)</b><br><br>VOR istasyonlarının sinyal yayın güçleri (Terminal, Low, High) sınıflandırılır ve bu sinyaller uçak irtifasına göre farklı mesafelerden kirlenmeden alınabilir.<br><br><b>Standart SSV (Standard Service Volume) Kuralı:</b> H (High / Yüksek İrtifa) sınıfı güçlü bir VOR istasyonu, 18.000 feet üzerindeki yüksek irtifalarda 130 NM menzile kadar temiz yayın yapabilse de; yeryüzü engellerinin ve dağların sinyali kesmemesi için 14.500 ile 18.000 feet altındaki nispeten alçak irtifalardaki standart operasyonel garanti (radyal) mesafesi <b>40 NM (Deniz Mili)</b> olarak belirlenmiştir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.66",
@@ -921,7 +986,8 @@
         "Açıklama": "DME (Distance Measuring Equipment), pilota yer istasyonu ile uçak arasındaki 'eğimli mesafe' (Slant Range) bilgisini verir.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>DME (Distance Measuring Equipment) Temel İşlevi</b><br><br>Adı üzerinde olan bu sistem, VOR veya ILS ile birlikte çalışarak pilotun harita üzerindeki 3 boyutlu konumunu (Fix) kesin olarak netleştirmesini sağlar.<br><br><b>Sistemin İşlevi:</b> DME cihazı uçaktaki Interrogator (sorgulayıcı) anteninden yer istasyonuna soru sinyali gönderir ve cevabın geliş süresini (milisaniye cinsinden radyo dalgası hızıyla) ölçerek pilota ekranında doğrudan yer istasyonu anteni ile uçak gövdesi arasındaki <b>Mesafe (Eğimli Mesafe / Slant Range)</b> bilgisini Deniz Mili (NM) cinsinden verir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.67",
@@ -935,7 +1001,8 @@
         "Açıklama": "DME sistemi, UHF bandında 960 MHz ile 1215 MHz arasındaki frekanslarda çalışır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>DME Cihazının Radyo Frekans Bandı (UHF)</b><br><br>DME sistemi sadece ses veya basit yön sinyali değil, son derece hızlı veri paketleri (pals çiftleri) ilettiği ve hassas zaman ölçümü yaptığı için VHF'ten daha yüksek ve geniş bir bant genişliğine ihtiyaç duyar.<br><br><b>Frekans Aralığı Kuralı:</b> Havacılıkta DME sistemleri, Ultra Yüksek Frekans (UHF) spektrumunda yer alan <b>960 MHz ile 1215 MHz</b> arasındaki havacılığa korunmuş frekans aralığında (L Bandı içinde) çalışır. DME ile ilgili frekans sorularında doğrudan 960-1215 ikilisini aramalısın."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.68",
@@ -949,7 +1016,8 @@
         "Açıklama": "VOR/DME, aynı lokasyona yerleştirilmiş iki sistemdir; VOR yön bilgisini, DME ise mesafe bilgisini sağlar. Böylece pilot tek bir istasyona bağlanarak konumunu (rho-theta) tam olarak belirler.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Bütünleşik Seyrüsefer: VOR/DME Sistemi</b><br><br>Havada kör uçuş (IFR) yaparken sadece istasyonun yönünü bilmek (VOR) veya istasyona sadece ne kadar mesafede olduğunu bilmek (DME) tek başına haritada kesin bir noktasal konum bulmak (Fix) için yeterli değildir.<br><br><b>Sistemin Birleşimi:</b> Uçağın uzaydaki kesin konumunu (Kutupsal koordinat / Rho-Theta) tespit edebilmesi için hem açıyı (Radyal) veren VOR cihazına hem de uzaklığı veren DME cihazına aynı anda ihtiyaç vardır. Bu iki vericinin sahada aynı kulede (Co-located) birleştiği istasyonlara <b>VOR/DME</b> denir ve pilota <b>hem yön hem de mesafe</b> bilgisini tek bir paket halinde sunar."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.69",
@@ -963,7 +1031,8 @@
         "Açıklama": "Jeppesen veya ICAO kartlarında frekans kutusundaki 'D' harfi, o seyrüsefer yardımcısının (VOR veya ILS) bir DME ile donatıldığını (Co-located) gösterir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Jeppesen / ICAO Harita Okuma: DME Sembolünün Şifresi</b><br><br>Pilotlar uçuş sırasında haritadaki (En-route chart) bir VOR veya ILS istasyonuna telsizlerinden frekans bağladıklarında, oradan yönün yanında mesafe bilgisi alıp alamayacaklarını frekans kutucuğundaki harflerden anlarlar.<br><br><b>Harita Şifresi (Kural):</b> Navigasyon kartlarındaki istasyon bilgi (frekans ve mors kodu) kutularının köşesinde veya cihaz adının hemen önünde bulunan <b>'D' harfi</b>, o yer istasyonunda VOR veya ILS'e ek olarak bir <b>DME (Distance Measuring Equipment)</b> sisteminin de bulunduğunu ve o frekans girildiğinde otomatik olarak kokpite mesafe bilgisinin de düşeceğini belirtir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.70",
@@ -977,7 +1046,8 @@
         "Açıklama": "DME Arkı (DME Arc), bir istasyona olan mesafeyi sabit tutarak (bir çember yayı çizerek) uçulan prosedürdür.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>DME Arc (Ark/Yay) Uçuş Manevrasının Tanımı</b><br><br>Bir havalimanına ILS yaklaşması yaparken uçağı direkt düz bir hatta (Straight-in) değil de, manialardan (dağlardan) kaçınmak veya hava trafiğini yavaşlatmak için çember çizdirerek süzülüş hattına oturtmak daha güvenli olabilir.<br><br><b>Manevranın Adı:</b> Merkezdeki DME yer istasyonuna olan mesafeyi (Örn: ekranda tam 12 mili koruyarak) uçuş boyunca sabit tutarak, istasyon merkezinin etrafında büyük bir çember yayı çizerek yapılan aletli uçuş manevrasına <b>DME Arkı (DME Arc)</b> denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.71",
@@ -991,7 +1061,8 @@
         "Açıklama": "Hem yanal (Localizer) hem de dikey (Glide Slope) elektronik rehberlik sağlayarak uçağı piste indiren sistemlere 'Hassas Yaklaşma' (Precision Approach) denir.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Hassas Yaklaşma (Precision Approach) Sistemleri Kategorisi</b><br><br>Bulutların yeri öptüğü (OVC 200 ft), görüşün kedi gözü ışıklarına kadar düştüğü (LVP) durumlarda pilotların uçağı piste indirebilmesi için sadece sağa/sola (yatay) değil, aşağı/yukarı (dikey) süzülüşlerinde de elektronik bir tünele ihtiyacı vardır.<br><br><b>Hassasiyet Kuralı:</b> VOR veya NDB gibi sistemler uçağa sadece yatay istikamet verir. Ancak ILS, MLS veya PAR gibi uçağa yatay istikametin (Localizer) yanında mutlaka elektronik <b>Dikey Süzülüş Açısı (Glide Slope / G/S)</b> bilgisi de vererek uçağı adeta 3 boyutlu bir ray üzerinde piste indiren yaklaşma türlerine <b>Hassas Yaklaşma (Precision Approach)</b> adı verilir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.72",
@@ -1005,7 +1076,8 @@
         "Açıklama": "Standart ILS sistemi 4 ana unsurdan oluşur: Yön için Localizer (LLZ), süzülüş için Glide Slope (GS), mesafe kontrolü için Markerlar ve görsel temas için Yaklaşma Işıkları (ALS).",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>ILS (Aletli İniş Sistemi) Mimari Bileşenleri (Dörtlü Set)</b><br><br>Bir havalimanındaki ILS (Instrument Landing System) tek bir uydudan veya tek bir antenden ibaret değildir; birbiriyle eşgüdümlü çalışan ve uçağı kademe kademe piste sokan bir cihazlar bütünüdür.<br><br><b>Ana Bileşenler (Sistemin Omurgası):</b><ul><li><b>LLZ (Localizer):</b> Pistin sonunda bulunur, uçağı pistin sağ/sol orta hattına (Yatay) oturtur.</li><li><b>GS (Glide Slope):</b> Pist kenarında bulunur, uçağın 3 derecelik dikey süzülüş açısını verir.</li><li><b>MARKERS (Outer, Middle, Inner):</b> Yaklaşma hattında belirli mesafelerde bulunan radyo kerteriz (ses/ışık) uyarıcılarıdır.</li><li><b>ALS (Approach Lighting System):</b> Yaklaşma ışıklarıdır, pilotun buluttan çıktığında pisti görsel olarak bulmasını sağlar.</li></ul>Sınavda bu dörtlü kombinasyonu <b>(LLZ / GS / MARKERS / ALS)</b> eksiksiz barındıran şık işaretlenmelidir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.73",
@@ -1019,7 +1091,8 @@
         "Açıklama": "Middle Marker (Orta Marker); pist başından yaklaşık 3500 ft (1 km) mesafede, uçağın karar yüksekliği (CAT I DH) olan 200 ft irtifada olduğunu pilota bildiren ve kesik nokta-çizgi sesi veren bileşendir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>ILS Markerları: Middle Marker (Orta Marker - MM) Özellikleri</b><br><br>Marker (İşaretleyici) cihazları, ILS yaklaşmasında aşağıdan yukarıya dikey sinyal basarak pilotun kulağına bip sesleri verir ve piste ne kadar mesafe yaklaştığını bildiren elektronik kilometre taşlarıdır.<br><br><b>Middle Marker (MM) Şifreleri:</b> Eğer bir sınav sorusunda uçağın konumu için; pist başına yaklaşık <b>3500 feet (1 km civarı)</b> uzaklık, CAT I (Kategori 1) yaklaşmasında uçağın Karar Yüksekliği olan <b>200 feet</b> irtifa (DH) ve kokpitte amber (sarı) renkli bir ışık eşliğinde duyulan dakikada 95 <b>nokta-çizgi (- . - .)</b> sesi ibareleri yer alıyorsa, tarif edilen bileşen kesinlikle <b>Middle Marker'dır</b>."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.74",
@@ -1033,7 +1106,8 @@
         "Açıklama": "ICAO standartlarına göre, emniyetli bir alçalma ve engel kleransı için ILS süzülüş açısı (Glide Path) 3.0 derece olarak belirlenmiştir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>ILS Süzülüş Açısı (Glide Path / Glide Slope) Standart Değeri</b><br><br>Yolcu uçakları konforlu, motor gücünün ve hızın kolayca kontrol edilebilir olduğu ve aynı zamanda yaklaşma hattındaki engellerden (bina, dağ) güvenle sıyrılan sabit bir açıyla iniş yaparlar.<br><br><b>Evrensel Standart:</b> ICAO (Uluslararası Sivil Havacılık Örgütü) PANS-OPS kurallarına göre, coğrafi bir tepe (engel) veya özel bir askeri durum aksini gerektirmedikçe, ILS sisteminin Glide Slope anteni uçağı piste indirmek için standart olarak <b>3 derecelik (3.0) bir süzülüş yolu açısı</b> yayınlayacak şekilde kalibre edilir. Bu havacılığın altın kuralıdır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.75",
@@ -1047,7 +1121,8 @@
         "Açıklama": "Localizer vericisi, pist uzantısında yaklaşık 18 NM (Deniz Mili) mesafeye kadar pilota istikamet (yön) bilgisi sağlar.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Localizer (LLZ) Sinyal Kapsama Alanı ve Rotası</b><br><br>ILS sisteminin yön bulucu yatay bileşeni olan Localizer, pist uzantısında havaya bir sinyal tüneli oluşturur ve uçağın otomatik pilotunu pistin tam orta hattında (Centerline) hapseder.<br><br><b>Kapsama Hacmi Kuralı:</b> Localizer antenleri pistin kalkış yapılacak sonuna yerleştirilir ve uçağı pist başından itibaren huni şeklinde açılarak yaklaşık <b>18 NM (Deniz Mili) uzaklığa ve anten hizasından 4500 feet yüksekliğe kadar</b> yönlendirir. Bu hacim içinde uçak sinyali yakalayıp sağ-sol (rota) bilgisini (Deviation) hatasız olarak alabilir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.76",
@@ -1061,7 +1136,8 @@
         "Açıklama": "Uçağın burnunda bulunan 'Airborne Weather Radar', radyo dalgaları gönderip yansımaları toplayarak rotadaki yağış yoğunluğunu (Kırmızı/Magenta) ve fırtına hücrelerini pilota gösterir.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Uçak İçi Hava Durumu Radarı (Airborne Weather Radar)</b><br><br>Gece karanlığında veya görüşün tamamen sıfır olduğu bulut içi uçuşlarda (IFR), pilotun uçağını parçalayabilecek fırtına hücrelerini (Cb - Kümülonimbus) ve doluları önceden görüp rotasını anında saptırması gerekir.<br><br><b>Sistemin Adı ve Yeri:</b> Yerdeki ATC kontrolörlerine bağlı kalmadan, uçağın tam burun kısmına (Radome) yerleştirilmiş olan ve su damlacıklarından/buzdan yansıyan radyo dalgalarıyla kokpitteki ND ekranına önündeki yağışın/fırtınanın şiddetini renklerle çizen sisteme <b>Airborne Weather Radar (Uçak İçi Hava Durumu Radarı)</b> denir. (SSR veya PSR, uçağın içinde değil, yerde bulunan hava trafik kontrol radarlarıdır)."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.77",
@@ -1075,7 +1151,8 @@
         "Açıklama": "RSR (Route Surveillance Radar) veya ARSR, havaalanlarından uzak bölgelerde, yol boyu seyrüsefer trafiğini izlemek için kurulan uzun menzilli (200+ NM) radar tipidir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Yol Boyu Arama Radarı: RSR (Route Surveillance Radar)</b><br><br>Terminal sahası (TMA) radarları havalimanı çevresindeki yaklaşan uçakları 50-60 millik dar bir alanda sık tararken, iki ülke arasındaki yüzlerce millik otoyolları (Airways) kontrol etmek için yavaş dönen devasa radarlara ihtiyaç vardır.<br><br><b>Tanım:</b> Havaalanı terminallerinden uzakta, okyanus, çöl veya kıta geçişlerinde yüksek uçuş seviyelerindeki yolcu trafiklerini ayırmak için kullanılan, <b>200 ile 300 NM (Deniz Mili) menzile sahip devasa ve uzun menzilli radarlara RSR (Route Surveillance Radar)</b> veya ARSR adı verilir. R harfi (Route/Rota) doğru şıkkın şifresidir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.78",
@@ -1089,7 +1166,8 @@
         "Açıklama": "ASMI (Airport Surface Movement Indicator) veya SMR, sisli havalarda veya gece görüşün düştüğü durumlarda yerdeki uçak ve araç trafiğini izlemek için kullanılan yüzey hareket radarıdır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Yüzey Hareket Radarı: ASMI (Airport Surface Movement Indicator)</b><br><br>Yoğun sis olan (LVP - Düşük Görüş Usulleri) kış günlerinde, kulede oturan Hava Trafik Kontrolörü pencereden baktığında aprondaki koca uçakları veya pistte giden itfaiye araçlarını gözle göremez.<br><br><b>Çözüm Sistemi:</b> Havada uçan uçakları değil, sadece havalimanının <b>yer yüzeyindeki (taksiyolları, pistler, apron bölgesi)</b> uçakların ve tekerlekli hizmet araçlarının hareketlerini anlık olarak izlemek ve ölümcül pist ihlallerini önlemek için kuleye monte edilen çok yüksek frekanslı, kısa menzilli özel radara <b>ASMI</b> veya SMR (Surface Movement Radar) denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.79",
@@ -1103,7 +1181,8 @@
         "Açıklama": "SRA (Surveillance Radar Approach), pilotun ILS gibi aletleri kullanamadığı durumlarda, hava trafik kontrolörünün radar ekranına bakarak pilota sesli komutlarla yön ve alçalma talimatı verdiği yaklaşmadır.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Himaye Radar Yaklaşması (SRA) Kısaltmasının Tespiti</b><br><br>Bu soru doğrudan havacılık İngilizcesindeki bir kısaltmanın (Acronym) Türkçe terminolojideki karşılığını sormaktadır.<br><br><b>Kavram ve Kısaltma:</b> Uçağın içindeki aletlerin bozuk olduğu veya küçük bir meydanda ILS sisteminin bulunmadığı durumlarda, ATC radar kontrolörünün ekranındaki hedefe bakarak telsizden pilota 'Sola dön, sağa dön, alçalmaya başla' gibi sürekli sesli (Vektör) komutlar vererek uçağı piste indirmesi işlemine <b>SRA (Surveillance Radar Approach - Himaye Radar Yaklaşması)</b> denir. Kısaltma sorunun içinde <b>(SRA)</b> zaten açıkça verilmiştir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.80",
@@ -1117,7 +1196,8 @@
         "Açıklama": "Hava durumu radarlarında yağış yoğunlukları Yeşil (Hafif) -> Sarı (Orta) -> Kırmızı (Yoğun) şeklinde giderken, Magenta (Eflatun/Mor) renk şiddetli türbülansı veya dolu riskini gösterir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Hava Durumu Radarı Renk Skalası (Magenta Rengi Riski)</b><br><br>Uçak içi hava durumu (Weather) radarı, kokpitteki ekranda bulutların içindeki yağışın (suyun ve buzun) yoğunluğunu boyayarak gösterir. Bu renkler hava yolu pilotları için kesin hayati tehlike limitleridir.<br><br><b>Renk Şifreleri ve Kuralları:</b><ul><li><b>Yeşil:</b> Hafif yağış, içinden emniyetle geçilebilir.</li><li><b>Sarı:</b> Orta şiddetli yağış, hafif/orta sarsıntı (türbülans) yapar.</li><li><b>Kırmızı:</b> Şiddetli yağış (Cb - Oraj bulutları), uçak kesinlikle kaçınmalı ve etrafından dolaşmalıdır.</li><li><b>Magenta (Mor/Eflatun):</b> Radardaki en yoğun ve tehlikeli renktir. <b>Aşırı şiddetli türbülans, iri dolu (hail) ve ölümcül mikro patlamaları (microburst)</b> sembolize eder. Bu rengin olduğu bölgeye hiçbir uçak asla sokulmaz.</li></ul>Sınavda türbülans, dolu veya en tehlikeli renk sorulduğunda cevap istisnasız <b>Magenta'dır</b>."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.81",
@@ -1131,7 +1211,8 @@
         "Açıklama": "RNP (Required Navigation Performance); RNAV'dan farklı olarak, uçağın seyrüsefer performansının sürekli izlenmesini (monitoring) ve hata durumunda pilotun uyarılmasını (alerting) gerektiren standarttır.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Performansa Dayalı Seyrüsefer: RNP (Required Navigation Performance)</b><br><br>Modern uçaklar GPS sinyalleri kullanarak yeryüzündeki istasyonlara (VOR) bağlı kalmadan direkt (RNAV) uçabilirler. Ancak dar vadilerde veya dağlık alanlarda uçarken uçağın bu doğruluğunun donanımsal olarak garanti edilmesi ve bir sapma anında uçağın pilotu yüksek sesle uyarması gerekir.<br><br><b>Kilit Fark (Monitoring and Alerting):</b> Standart RNAV sistemlerinden farklı olarak; kokpitte uçağın kendi seyrüsefer sapmasını ve sinyal kalitesini <b>sürekli olarak izleyen (monitoring) ve performans limitleri (örneğin 1 mil) aşıldığında pilotu sesli/görsel ikazlarla (alerting) anında uyaran</b> donanım destekli, yüksek güvenlikli seyrüsefer standardına <b>RNP</b> denir. Soruda 'izleme ve ikaz' kelimelerini gördüğünde doğrudan RNP'yi işaretlemelisin."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.82",
@@ -1145,7 +1226,8 @@
         "Açıklama": "B-RNAV (Basic RNAV), ICAO PBN konseptindeki RNAV 5 standardına eşdeğerdir ve uçuş süresinin %95'inde rota merkez hattından en fazla 5 NM sapma doğruluğu gerektirir.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Basic RNAV (B-RNAV / RNAV 5) Hassasiyet Kuralı ve Yüzdesi</b><br><br>Avrupa hava sahasında (ECAC bölgesi) kalabalık trafiği yönetmek için uygulanan temel alan seyrüseferi (Area Navigation) konseptinde, uçakların rotadan sapma toleransları matematiksel olarak çok nettir.<br><br><b>Limitasyon (5x95 Kuralı):</b> B-RNAV terimi, ICAO literatüründeki 'RNAV 5' standardı ile teknik olarak aynıdır. Bu sistem, uçağın toplam <b>uçuş zamanının (süresinin) %95'i boyunca, bilgisayara girilen planlı rotasından 5 Deniz Milinden (5 NM) fazla sapmamasını (hata yapmamasını) dikte eder.</b> Sınavda B-RNAV veya RNAV 5 sorulduğunda mutlaka <b>%95 oranını ve 5 NM</b> rakamını bir arada barındıran şıkkı aramalısın."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.83",
@@ -1159,7 +1241,8 @@
         "Açıklama": "RNAV (Saha Seyrüseferi), uçağın yer istasyonlarının (VOR/NDB) sinyal kapsama alanı içinde kalmak şartıyla, istasyonların tam üzerinden geçmeden 'direkt' (point-to-point) uçabilmesini sağlar; istasyon üzerine gitme zorunluluğunu kaldırır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Saha Seyrüseferi (RNAV) Felsefesi ve Yaygın Yanılgılar</b><br><br>Eski VOR (Radyo) navigasyonunda uçak, zikzaklar çizerek yerdeki bir antenden diğer antenin tam üzerine (tepesine) uçmak, yani istasyonları fiziksel olarak takip etmek zorundaydı.<br><br><b>RNAV'ın Getirdiği Devrim (Yanlış İfadenin İspatı):</b> RNAV (Area Navigation), uçağın birden fazla VOR/DME sinyalini veya uzaydaki GPS sinyallerini kullanarak kendi içinde sanal noktalar (Waypoints) üretmesini ve yerde istasyon olmasa dahi bu sanal noktalar arasında <b>DİREKT uçmasını (Point-to-Point)</b> sağlar. Bu nedenle <b>'Uçuş hattı (rotası) üzerinde fiziki navigasyon yardımcılarına (antenlere) ihtiyaç duyulur' ifadesi RNAV'ın varoluş felsefesine tamamen terstir ve YANLIŞTIR.</b> İstasyonlar sinyal için etrafta (yüzlerce mil uzakta) olabilir, ama uçtuğun çizginin (hattın) tam altında olmak zorunda değildir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.84",
@@ -1173,7 +1256,8 @@
         "Açıklama": "Uçuş planında (FPL), uçağın Performansa Dayalı Seyrüsefer (PBN/RNAV) yeteneğine sahip olduğunu belirtmek için Teçhizat (Item 10) bölümüne 'R' harfi kodlanır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Uçuş Planı (FPL) Formu Bölüm 10: Teçhizat (Equipment) Kodlaması</b><br><br>Hava trafik kontrolörü (ATC) yüzlerce uçağı radar ekranında yan yana dizerken, hangi uçağın GPS ile kendi kendine (RNAV) uçma kabiliyeti olup olmadığını, hangisinin radar vektörüne ihtiyaç duyduğunu dispeçerin uçuş planına yazdığı tek bir harften anlar.<br><br><b>RNAV/RNP Şifresi:</b> Bir uçağın Performansa Dayalı Seyrüsefer (PBN), B-RNAV veya RNP gibi modern donanımlara sahip olduğunu tüm sisteme bildirmek için, Uçuş Planı (Flight Plan) formunun teçhizatların yazıldığı <b>10. bölümüne (Item 10)</b> mutlaka <b>'R' (Routing / RNAV / RNP Approval)</b> harfi kodlanmalıdır. VOR için S, ILS için L harfleri kullanılır, ancak PBN/RNAV dendiğinde cevap daima 'R' harfidir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.85",
@@ -1187,7 +1271,8 @@
         "Açıklama": "LNAV (Lateral Navigation), uçağın uçuş yönetim bilgisayarı (FMS) veritabanındaki coğrafi koordinatları takip ederek yatay düzlemde otomatik seyrüsefer yapmasını sağlayan moddur.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Uçuş Yönetim Sistemi Modları: LNAV (Lateral Navigation)</b><br><br>Modern uçakların otomatik uçuş bilgisayarları uçağı uzayda iki farklı düzlemde yönetir: Uçağın alçalma/tırmanma hesabı (Dikey) ve Uçağın sağa/sola dönüş hesabı (Yatay).<br><br><b>Kavram Eşleşmesi:</b> Uçağın FMS (Uçuş Yönetim Sistemi) veritabanına girilmiş olan GPS veya RNAV sanal geçiş noktalarını (Waypoints) baz alarak, otopilotun uçağı <b>Yatay düzlemde (sağa-sola dönüşler, rüzgar düzeltmesi ve harita üzeri rota takibi) yönlendirmesini</b> sağlayan uçuş kontrol moduna <b>LNAV (Lateral Navigation - Yanal Seyrüsefer)</b> denir. VNAV ise uçağın dikey (Vertical) irtifa boyutunu yönetir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.86",
@@ -1201,7 +1286,8 @@
         "Açıklama": "Transponder, pilotun kendisine verilen 4 haneli kodu (Squawk) girmesiyle uçağın kimliğini, irtifasını ve varsa acil durum bilgisini (7700 vb.) yerdeki radar ekranına tanıtan cihazdır.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Radar Tanımlama ve Acil Durum Cihazı: Transponder</b><br><br>Yerdeki gelişmiş SSR (İkincil Gözetim Radarı) anteni gökyüzündeki uçağa \"Sen kimsin, yüksekliğin ne?\" şeklinde bir elektronik sinyal (Sorgulama) gönderdiğinde, uçaktaki sistem bu sinyale otomatik ve şifreli bir geri dönüş (Reply) yapar.<br><br><b>Tanım:</b> Kokpitte bulunan, pilotun ATC (Hava Trafik Kontrolü) tarafından verilen 4 haneli uçuş kimlik kodunu (Örn: 2455 - Squawk) girdiği, aynı zamanda uçak kaçırılma (7500), telsiz arızası (7600) veya genel acil durum (7700) gibi hayati <b>acil durum (Emergency) kodlarının tuşlandığı ve uçağın radarda kimliğiyle görünmesini sağlayan cihaza Transponder denir</b>."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.87",
@@ -1215,7 +1301,8 @@
         "Açıklama": "GPWS (Ground Proximity Warning System), radyo altimetre verisini kullanarak uçağın yere tehlikeli yaklaşma oranını, iniş takımlarının durumunu ve araziyi analiz edip pilotu sesli ('Pull Up!') uyarır.",
         "Zorluk Derecesi(1-5)": "1",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Arazi ve Yere Yaklaşım İkaz Sistemi: GPWS</b><br><br>Uçakların gece karanlığında veya yoğun siste dağlara çarpmasını (CFIT) engellemek amacıyla geliştirilen, uçağın yerdeki engellere olan dikey hızını radarla ölçen hayati bir sistem vardır.<br><br><b>Sistemin Fonksiyonu:</b> Uçağın radyo altimetresinden aldığı mesafe verilerini, iniş takımı (Gear) ve flap pozisyonlarını saniyeler içinde analiz ederek; uçağın aşırı hızla yere alçaldığı, bir tepeye doğru uçtuğu veya <b>iniş takımları kapalıyken yere iniş yapıyormuş gibi tehlikeli şekilde yaklaştığı durumlarda</b> kokpitte \"Pull Up! (Çek!), Terrain!\" veya \"Too Low Gear!\" diye bağırarak pilotu uyaran sisteme <b>GPWS (Ground Proximity Warning System)</b> denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.88",
@@ -1229,7 +1316,8 @@
         "Açıklama": "EASA ve ICAO kurallarına göre, belirli bir ağırlığın (5700 kg/15.000 kg) üzerindeki veya 19/30'dan fazla yolcu taşıyan türbin motorlu uçaklarda ACAS II (TCAS II) çarpışma önleyici sistem zorunludur.",
         "Zorluk Derecesi(1-5)": "5",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Havada Çarpışmayı Önleme Sistemi (ACAS II / TCAS II) Zorunluluğu</b><br><br>Okyanus ortasında veya radarın çekmediği yoğun bölgelerde uçakların havada birbirine çarpmaması için sadece yerdeki Hava Trafik Kontrolüne (ATC) güvenilmez. Uçaklar kendi içindeki antenlerle etrafındaki diğer uçakları görüp onlarla dijital olarak pazarlık eder.<br><br><b>Yasal Emniyet Zorunluluğu:</b> EASA ve ICAO regülasyonları gereği, iki uçak çarpışma rotasına girdiğinde kokpitte pilota \"Tırman\" (Climb) veya \"Alçal\" (Descend) diye sesli Kaçınma Manevrası (Resolution Advisory - RA) üreten bu <b>ACAS II (TCAS II)</b> teçhizatının, maksimum kalkış ağırlığı (MTOW) 15 tonu (15.000 kg) aşan veya yolcu koltuk kapasitesi 30'dan büyük olan tüm sivil türbin motorlu uçaklarda bulunması <b>mecburidir</b>. Soru cümlesindeki limitler doğrudan ACAS II kuralıdır."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.89",
@@ -1243,7 +1331,8 @@
         "Açıklama": "EFIS (Electronic Flight Instrument System), kokpitteki mekanik saatlerin yerini alan, uçuş (PFD) ve seyrüsefer (ND) bilgilerini dijital ekranlarda sunan sistemdir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Dijital Kokpit Ekran Teknolojisi: EFIS (Electronic Flight Instrument System)</b><br><br>Eski nesil uçaklarda (Örn: Boeing 727) uçağın yüksekliği, hızı, pusula yönü ve suni ufuk bilgileri analog çalışan onlarca mekanik ve yuvarlak saatle gösterilirdi. Günümüz modern kokpitlerinde bu karmaşa yerini devasa televizyon ekranlarına bırakmıştır.<br><br><b>Tanım:</b> Uçuş sensörlerinden alınan verilerin ve seyrüsefer bilgilerinin bilgisayarlar tarafından işlenip kokpitteki CRT veya güncel LCD renkli ekranlar (Uçuş/PFD ve Seyrüsefer/ND olmak üzere iki ana gösterge) üzerinde <b>elektronik olarak birleştirilip gösterilmesine EFIS (Elektronik Uçuş Aletleri Sistemi)</b> denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.90",
@@ -1257,7 +1346,8 @@
         "Açıklama": "Flight Director (FDS), otopilotun takip etmesi gereken ideal rotayı hesaplayıp pilotun ana göstergesinde (PFD) komut barları (crosshair veya v-bar) şeklinde gösteren sistemdir.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Uçuş Yönetim ve Yönlendirme: Flight Director System (FDS)</b><br><br>Otopilot uçağı uçuran mekanik kaslarsa, bu kaslara nereye gideceğini (kumanda çubuklarının ve lövyenin ne kadar yatırılacağını) söyleyen bir hesaplayıcı beyne ihtiyaç vardır.<br><br><b>Sistemin İşlevi:</b> Pilotun FMS bilgisayarına girdiği uçuş rotasını, bağlanılan ILS (süzülüş) hattını veya istenen hızı arka planda matematiksel olarak hesaplayarak, uçağın burnunun tam olarak hangi açıya çevrilmesi gerektiğini <b>'Steering Commands' (Seyir / Yönlendirme Komutları)</b> adı verilen sihirli barlar (artı veya V şekilli çizgiler) vasıtasıyla pilotun PFD (Ana Uçuş) ekranında gösteren sisteme <b>FDS (Flight Director System)</b> denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.91",
@@ -1271,7 +1361,8 @@
         "Açıklama": "RNAV/RNP kabiliyetine sahip uçaklar, uçuş planının 10. hanesindeki teçhizat bölümünde standart olarak 'R' harfi ile kodlanır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Uçuş Planı (FPL) Doldurma: RNP/RNAV Kodlaması (Tekrar Taktik)</b><br><br>Uçuş harekat uzmanlarının (Flight Dispatcher) en çok dikkat ettiği konulardan biri, uçağın teknolojik yeteneklerini yerdeki Eurocontrol ve ATC sistemlerine doğru harflerle beyan etmektir.<br><br><b>FPL Şifresi (Item 10):</b> Bir uçağın RNP 5 veya B-RNAV gibi Performansa Dayalı Seyrüsefer (PBN) hassasiyetlerine sahip olduğunu resmi olarak bildirmek için, Uçuş Planı Formunun 10. Bölümündeki (Teçhizat) kutucuğa <b>'R' harfi</b> yazılmalıdır. Sınavda B-RNAV ve 10. Bölüm kelimeleri yan yana geldiğinde tereddütsüz 'R' şıkkına gitmelisin."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.92",
@@ -1285,7 +1376,8 @@
         "Açıklama": "RNP 1 standardı, uçağın toplam uçuş süresinin %95'inde tanımlanmış rota merkez hattının sağında veya solunda en fazla 1 NM (Deniz Mili) mesafe içinde kalabilmesini gerektirir.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>RNP (Required Navigation Performance) Hassasiyet Değerleri ve Kuralları</b><br><br>Seyrüsefer terminolojisinde RNP (Gerekli Seyrüsefer Performansı) ifadesinin sonuna eklenen rakam, uçağın GPS/FMS sistemiyle uçarken rotasından sağa veya sola sapmasına (drift) izin verilen maksimum Deniz Mili (NM) toleransını ve hatasını temsil eder.<br><br><b>1x95 Kuralı Eşleşmesi:</b> RNP 1 standardı uçaklara, özellikle hassas kalkış (SID) veya terminal sahası (STAR) manevraları esnasında, <b>toplam uçuş zamanının %95'lik diliminde</b> planlanan rota merkez hattından sadece ve sadece <b>1 Deniz Milinden (1 NM) fazla sapma (hata) yapmamasını dikte ettirir.</b> Sınavda RNP 1 sorulduğunda rakam uyumundan 1 NM seçeneğini işaretle."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.93",
@@ -1299,7 +1391,8 @@
         "Açıklama": "RNP (Required Navigation Performance), bir hava sahasında uçabilmek için gereken seyrüsefer doğruluğu, bütünlüğü ve sürekliliğinin (on-board monitoring) tanımlandığı performans beyanıdır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Hava Sahası Performans Bildirisi: RNP (Required Navigation Performance)</b><br><br>ICAO PBN (Performansa Dayalı Seyrüsefer) konseptinin en gelişmiş aşaması olan bu sistem, sadece yerde kurulu olan VOR antenlerine değil, uçağın içindeki akıllı yazılımın uçuş kabiliyetine odaklanır.<br><br><b>Tanım Eşleşmesi:</b> Uçakların dağlık arazilerde, dar vadilerde veya trafik yoğunluğu yüksek karmaşık bir hava sahasında emniyetle uçabilmesi için uçağın donanımsal olarak sağlaması gereken yanal (Lateral) ve boyuna (Longitudinal) <b>seyrüsefer doğruluğunu, emniyet bütünlüğünü ve uçağın kendi hatasını fark edebilme kapasitesini belgeleyen uçuş bildiri/onay standardına RNP</b> denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.94",
@@ -1313,7 +1406,8 @@
         "Açıklama": "RNP AR (Authorization Required) gibi çok hassas ve kavisli yaklaşma prosedürleri, yer istasyonları yerine Küresel Uydu Seyrüsefer Sistemleri (GNSS/GPS) altyapısını kullanır.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>RNP AR (Authorization Required) Yaklaşmaları ve GNSS (Uydu) Altyapısı</b><br><br>RNP AR (Özel Otorizasyon Gerektiren) prosedürler, havacılıktaki en zor, en dar ve kavisli (dağların etrafından kıvrılarak inen) yaklaşmalardır. Yerdeki sabit radyofrekans istasyonları (VOR veya ILS) ile kavis çizerek (Radius to Fix) dağların etrafından dolanmak fiziksel olarak mümkün değildir.<br><br><b>Uydu Altyapısı Zorunluluğu:</b> Bu kadar karmaşık ve hata payı 0.3 veya 0.1 mil gibi inanılmaz dar olan yaklaşmaları emniyetle yapabilmenin yegane yolu yerdeki antenlere değil, uzaydaki uydulara güvenmektir. Bu nedenle RNP AR yaklaşmaları kesinlikle ve sadece <b>GNSS (Global Navigation Satellite System / Küresel Uydu Seyrüsefer Sistemi - GPS) tabanlı altyapı</b> kullanılarak gerçekleştirilebilir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.95",
@@ -1327,7 +1421,8 @@
         "Açıklama": "Avrupa hava sahasında yıllarca kullanılan 'B-RNAV' (Basic RNAV) terimi, teknik gereklilikler ve hassasiyet (5 NM) açısından 'RNAV 5' standardı ile aynıdır.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>B-RNAV'ın Küresel Standarttaki ICAO Karşılığı (RNAV 5)</b><br><br>1990'lı yıllarda Avrupa hava sahası (Eurocontrol) kendi bölgesel seyrüsefer terimlerini yaratmıştı. Daha sonra ICAO tüm dünyayı tek bir Global sistem (PBN) etrafında birleştirince eski terimlerin kodları güncellendi.<br><br><b>Terminoloji Eşitlemesi:</b> Avrupa'da yıllarca \"Basic RNAV\" (B-RNAV) olarak adlandırılan ve uçakların rotadan en fazla 5 deniz mili sapmasına izin veren bu bölgesel terim, günümüz uluslararası ICAO PBN (Performansa Dayalı Seyrüsefer) konseptinde tam olarak <b>RNAV 5</b> tanımına denk gelmektedir. (Sınavda B-RNAV eşittir RNAV 5 kuralını unutma)."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.96",
@@ -1341,7 +1436,8 @@
         "Açıklama": "Bir GPS alıcısının enlem, boylam ve irtifa (3 Boyutlu konum) hesabı yapabilmesi ve saat hatasını düzeltebilmesi için en az 4 uydudan sinyal alması (lock olması) gerekir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>GPS ile 3 Boyutlu Konum (3D Fix) Bulma Matematiksel Şartı</b><br><br>Uzayda dünyanın etrafında dönen GPS uyduları yeryüzüne sürekli zaman ve sinyal verisi yollar. Ancak uçağın (veya arabandaki telefonun) haritada tam yerini bulması için birden fazla uydunun kesişim (Trilaterasyon) noktasına ve saat doğruluk teyidine ihtiyacı vardır.<br><br><b>Minimum Uydu Kuralı:</b> Uçaktaki bir GPS alıcısının, uçağın Enlemini (Latitude), Boylamını (Longitude), en önemlisi de <b>İrtifasını (Yüksekliğini/Altitude)</b> hesaplayabilmesi ve alıcının saat(zaman) hatasını ortadan kaldırabilmesi (3D Fix) için gökyüzünde aynı anda en az <b>4 adet satellit'ten (uydudan)</b> kesintisiz sinyal alması (lock olması) fiziksel bir zorunluluktur. (3 uydu sadece 2 boyutlu yer bulur, irtifa için 4 şarttır)."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.97",
@@ -1355,7 +1451,8 @@
         "Açıklama": "INS (Inertial Navigation System), jiroskop ve ivmeölçerler kullanarak uçağın hareketlerini algılar; dışarıdan (uydu veya yer) hiçbir sinyal almadan tamamen kendi kendine (self-contained) konum hesabı yapar.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Bağımsız ve Kapalı Seyrüsefer Sistemi: INS (Inertial Navigation System)</b><br><br>Düşün ki GPS uyduları bozuldu, dünyadaki tüm VOR antenleri ve radyo yer istasyonları elektriksizlikten çöktü. Bir uçağı okyanusun veya kutupların ötesine körlemesine ama sıfır hatayla götürebilecek askeri kökenli tek bir sistem vardır.<br><br><b>Tanım Şifresi:</b> Uçağın kendi içine monte edilmiş son derece hassas lazer jiroskoplar ve ivmeölçerler (accelerometers) kullanarak, radyo dalgasına, uydulara veya herhangi bir <b>dış etkene, antene ihtiyaç göstermeden (Self-contained) tamamen otonom olarak (kendi kendine)</b> uçuş sırasındaki matematiksel ivme hesaplamalarıyla uçağın anlık pozisyonunu bulan sisteme <b>INS (Ataletsel Seyrüsefer Sistemi)</b> denir."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.98",
@@ -1369,7 +1466,8 @@
         "Açıklama": "Dünyadaki ana GNSS sistemleri sahiplerine göre şöyledir: GPS (ABD), GLONASS (Rusya), Galileo (Avrupa Birliği) ve BeiDou (Çin).",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Küresel Uydu Sistemleri (GNSS) ve Sahipleri / Devletleri</b><br><br>GNSS (Global Navigation Satellite System / Küresel Navigasyon Uydu Sistemi) genel bir şemsiye terimdir. Bu şemsiyenin altında, güçlü devletlerin ve birliklerin uzaya gönderdiği, dünyaya hizmet eden kendine ait marka uydu ağları vardır.<br><br><b>Doğru Sahip Eşleştirmeleri:</b><ul><li><b>GPS (Global Positioning System):</b> Amerika Birleşik Devletleri (A.B.D.) Savunma Bakanlığına aittir (En popüleridir).</li><li><b>GLONASS:</b> Rusya Federasyonu'nun geliştirdiği uydu ağıdır.</li><li><b>Galileo:</b> Avrupa Birliği'nin (AB) geliştirdiği, askeri olmayan sivil uydu sistemidir.</li></ul>Sınavda bu ülkeler ve sistemlerinin doğru sıralandığı şıkkı bulmalısın. (Ayrıca Çin'in BeiDou sistemi de vardır ancak sorularda genellikle bu üçlü temel alınır)."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.99",
@@ -1383,7 +1481,8 @@
         "Açıklama": "LORAN C, yer istasyonları zincirinden (Master ve Slave istasyonlar) gelen radyo sinyallerinin zaman farklarını ölçerek (hiperbolik seyrüsefer) konum belirleyen eski bir sistemdir.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Hiperbolik Seyrüsefer Sistemi: LORAN C Ağı</b><br><br>Uyduların (GPS) icat edilip yaygınlaşmasından önce, gemilerin okyanus aşırı seferlerinde veya eski uçakların uzun mesafeli uçuşlarında konum bulmak için kullandıkları devasa radyo sistemleri vardı.<br><br><b>Sistemin Çalışma Mantığı:</b> Yeryüzünde birbirine çok uzak mesafelere <b>peş peşe zincir halinde (Master ve Slave / Ana ve Köle İstasyonlar olarak) yerleştirilmiş</b> dev istasyonların yayınladığı düşük frekanslı radyo sinyallerinin, uçaktaki alıcıya ulaşma anındaki <b>zaman farklarını (Time Difference) ölçerek</b> haritada matematiksel hiperbolik konum koordinatı belirleyen bu tarihi yardımcı sisteme <b>LORAN C</b> denir. Sınavda 'Zincir (Chain)' ifadesi doğrudan LORAN'ı işaret eder."
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.100",
@@ -1397,6 +1496,7 @@
         "Açıklama": "INS sistemi, kalkıştan önce uçağın tam koordinatlarının (Initialization) girilmesiyle başlar ve uçuş boyunca uçağın ivme hareketlerini entegre ederek anlık pozisyonu ve rotayı hesaplar.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
-        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)"
+        "Kategori": "GOLDEN - SEYRÜSEFER (NAV)",
+        "Konu Anlatımı": "<b>Ataletsel Seyrüsefer Sistemi (INS) ve Başlatma (Initialization) Süreci</b><br><br>Dış dünyadan radyo sinyali almayan (uyduları veya antenleri kullanmayan) tamamen kapalı kutu bir mekanik/lazer sisteminin (INS), uçuş boyunca dünyadaki konumunu hesaplamaya başlayabilmesi için, ilk olarak nerede durduğunu ve dünyanın dönüşünü hissetmesi gerekir.<br><br><b>Çalışma Mantığı:</b> Uçak yerde tam hareketsizken uçağın geçerli park pozisyonu koordinatlarının (Enlem/Boylam) sisteme girildiği <b>(Sıraya dizme / Initialization / Hizalama aşaması)</b>, ardından uçuş boyunca kalkıştan inişe kadar meydana gelen tüm hızlanma/yavaşlama ve yatış verilerini ivmeölçerler vasıtasıyla entegre edip hesaplayarak <b>(ivme entegrasyonu)</b> anlık rotayı üreten otonom sisteme <b>INS (Inertial Navigation System)</b> denir."
     }
 ]
