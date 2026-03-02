@@ -361,7 +361,7 @@
     },
     {
         "Soru Numarası": "GOLDEN-NAV S.25",
-        "Soru Metni": "Eğer ______ dakikalık bir pürede _____derece’den fazla bir ayarlama gerekiyorsa, ricat hatasının çok fazla olduğu düşünülmelidir.",
+        "Soru Metni": "Eğer ______ dakikalık bir sürede _____derece’den fazla bir ayarlama gerekiyorsa, ricat hatasının çok fazla olduğu düşünülmelidir.",
         "A Şıkkı": "15 dakikalık / 3 derece",
         "B Şıkkı": "20 dakika / 2 derece",
         "C Şıkkı": "30 dakika / 4 derece",
@@ -1500,3 +1500,4 @@
         "Konu Anlatımı": "<b>Ataletsel Seyrüsefer Sistemi (INS) ve Başlatma (Initialization) Süreci</b><br><br>Dış dünyadan radyo sinyali almayan (uyduları veya antenleri kullanmayan) tamamen kapalı kutu bir mekanik/lazer sisteminin (INS), uçuş boyunca dünyadaki konumunu hesaplamaya başlayabilmesi için, ilk olarak nerede durduğunu ve dünyanın dönüşünü hissetmesi gerekir.<br><br><b>Çalışma Mantığı:</b> Uçak yerde tam hareketsizken uçağın geçerli park pozisyonu koordinatlarının (Enlem/Boylam) sisteme girildiği <b>(Sıraya dizme / Initialization / Hizalama aşaması)</b>, ardından uçuş boyunca kalkıştan inişe kadar meydana gelen tüm hızlanma/yavaşlama ve yatış verilerini ivmeölçerler vasıtasıyla entegre edip hesaplayarak <b>(ivme entegrasyonu)</b> anlık rotayı üreten otonom sisteme <b>INS (Inertial Navigation System)</b> denir."
     }
 ]
+
