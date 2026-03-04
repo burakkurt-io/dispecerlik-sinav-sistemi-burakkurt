@@ -785,18 +785,41 @@
         async function start() {
             try {
                 document.getElementById('no').innerText = "VERİTABANLARI YÜKLENİYOR...";
-                document.getElementById('txt').innerText = "Sorular hazırlanıyor, lütfen bekleyin...";
+                document.getElementById('txt').innerText = "Sorular ve konu analizleri hazırlanıyor, lütfen bekleyin...";
 
+                // 1. ADIM: Tüm ana soru havuzlarını çek (Burada sorular.json var)
                 const urls = [ 'sorular.json', 'kdm_dgr_sorular.json', 'kdm_law_final.json', 'kdm_nav_final.json', 'kdm_com_final.json' ];
                 const responses = await Promise.all(urls.map(url => fetch(url).catch(e => { return { json: () => [] }; })));
                 const dataArrays = await Promise.all(responses.map(res => res.json()));
 
+                // 2. ADIM: Konu Anlatımları (Cheatsheet) dosyasını ayrı olarak çek
+                const konuRes = await fetch('sorular-konu-anlatimi.json').catch(e => { return { json: () => [] }; });
+                const konuData = await konuRes.json();
+
+                // Konu anlatımlarını hızlı arama (O(1)) için bir sözlüğe (Dictionary) çevir
+                const konuSozlugu = {};
+                if (Array.isArray(konuData)) {
+                    konuData.forEach(item => {
+                        if(item['Soru Numarası'] && item['Konu Anlatımı']) {
+                            // GOLDEN eşleştirmesi için numaraları standardize et
+                            let temizNo = item['Soru Numarası'].replace(/KDM/g, 'GOLDEN');
+                            konuSozlugu[temizNo] = item['Konu Anlatımı'];
+                        }
+                    });
+                }
+
+                // 3. ADIM: Verileri Birleştir ve Eşleştir
                 allQs = [];
                 dataArrays.forEach(arr => {
                     if (Array.isArray(arr)) {
                         arr.forEach(item => {
                             if(item['Kategori']) item['Kategori'] = item['Kategori'].replace(/KDM/g, 'GOLDEN');
                             if(item['Soru Numarası']) item['Soru Numarası'] = item['Soru Numarası'].replace(/KDM/g, 'GOLDEN');
+                            
+                            // Eğer bu sorunun numarası sözlükte varsa, Konu Anlatımını sorunun içine gizlice ekle
+                            if(konuSozlugu[item['Soru Numarası']]) {
+                                item['Konu Anlatımı'] = konuSozlugu[item['Soru Numarası']];
+                            }
                         });
                         allQs.push(...arr);
                     }
@@ -808,7 +831,7 @@
                 show();
             } catch(e) { 
                 document.getElementById('no').innerText = "BAĞLANTI HATASI";
-                document.getElementById('txt').innerText = "Veriler sunucudan çekilemedi.";
+                document.getElementById('txt').innerText = "Veriler sunucudan çekilemedi. Lütfen bağlantınızı kontrol edin.";
             }
         }
 
@@ -1019,6 +1042,7 @@ function aciklamaGosterGizle() {
     </script>
 </body>
 </html>
+
 
 
 
