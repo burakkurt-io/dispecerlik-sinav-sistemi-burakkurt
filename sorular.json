@@ -6811,7 +6811,7 @@
         "C Şıkkı": "extremely unstable and require excessive elevator control to change pitch.",
         "D Şıkkı": "extremely unstable and require small elevator control to change pitch.",
         "Doğru Cevap": "a",
-        "Açıklama": "Ağırlık merkezi çok önde olan bir uçak boylamasına eksende aşırı istikrarlı (stable) hale gelir, bu da pilotun uçağın burnunu yukarı kaldırmak (pitch change) için çok daha fazla güç ve kumanda uygulamasını gerektirir.",
+        "Açıklama": "Ağırlık merkezi (CG) ileri limite (forward limit) yaklaştıkça, uçağın boylamasına stabilitesi (longitudinal stability) önemli ölçüde artar. Uçak aşırı stabil (extremely stable) hale geldiği için, mevcut durumu koruma eğilimi yükselir ve yunuslama (pitch) hareketine karşı direnç gösterir. Uçağın burnunu aşağı çeken moment arttığından, pilotun uçağın burnunu kaldırabilmesi (kalkış veya flare esnasında) için kuyrukta çok daha büyük bir aşağı yönlü kuvvet (tail-down force) oluşturması gerekir. Bu da irtifa dümeninde (elevator) aşırı kontrol girdisi (excessive elevator control) uygulanmasını zorunlu kılar.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
         "Kategori": "1) M&B - AĞIRLIK VE DENGE (U 01 E UO 199 ) - UÇAK DENGESİ VE BOYLAMASINA STABİLİTE, AĞIRLIK MERKEZİNİN TANIMI (CG)"
@@ -23266,5 +23266,6 @@
         "Kategori": "7) MET - METEOROLOJİ ( U 01 E UO 196 ) - ATMOSFER, ATMOSFERİN BİLEŞİMİ VE KAPSAMI, DİKEY BÖLME"
     }
 ]
+
 
 
