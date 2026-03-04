@@ -965,7 +965,7 @@
     },
     {
         "Soru Numarası": "S.243",
-        "Konu Anlatımı": "<b>Hassas Seyrüsefer Sistemi Veri Tabanı Geçerliliği (AIRAC)</b><br><br>Uçağın bilgisayarındaki (FMS) haritalar ve veriler sürekli değişir. Bu değişimin standart bir döngüsü vardır.<br><br><b>AIRAC Döngüsü:</b> Tüm dünyada havacılık verileri ve navigasyon veri tabanları her <b>28 günde bir</b> güncellenir. Bu süre bir takvim ayı (30 gün) değil, tam olarak 28 gündür."
+        "Konu Anlatımı": "<b>P-RNAV (Precision RNAV) ve Hassasiyet Standartları</b><br><br>Alan Seyrüseferi (RNAV) sistemleri, uçağın sahip olduğu seyrüsefer hassasiyetine göre sınıflandırılır. Bu sınıflar, uçağın rotadan sapma toleransını belirler.<br><br><b>P-RNAV (RNP 1) Gereklilikleri:</b><ul><li><b>Hassasiyet Değeri:</b> Hassas RNAV (P-RNAV) operasyonları için belirlenen standart doğruluk değeri <b>1 NM</b>'dir.</li><li><b>Doğruluk Oranı:</b> Uçağın, uçuş süresinin <b>%95'inde</b> belirlenen bu 1 deniz millik limit içerisinde kalması zorunludur.</li><li><b>Kullanım Alanı:</b> Genellikle yoğun hava trafiğinin olduğu terminal sahalarında (SID/STAR prosedürlerinde) kullanılır.</li></ul><b>Önemli Fark:</b> Eğer soru 'Temel' (Basic) RNAV yani B-RNAV (RNP 5) hakkında olsaydı, istenen doğruluk değeri 5 NM olacaktı. 'Precision' (Hassas) ifadesi geçtiği an hedef her zaman 1 NM'dir."  
     },
     {
         "Soru Numarası": "S.244",
@@ -5931,4 +5931,5 @@
         "Soru Numarası": "S.1756",
         "Konu Anlatımı": "<b>Orta Seviye Bulutları (Middle Clouds) Hangileridir?</b><br><br>Adı 'Alto' ile başlayanlar ortadadır!<br><br><b>Sınıflandırma Şifresi:</b> 6.500 ile 20.000 feet arasında yer alan orta irtifa bulutları her zaman 'Alto' (Orta) kelimesiyle başlar. Şıklara bak ve 'A' harfiyle başlayan kısaltmaları bul: <b>As (Altostratus) ve Ac (Altocumulus).</b>"
     }
+
 ]
