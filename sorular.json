@@ -3256,7 +3256,7 @@
         "C Şıkkı": "1 nm.",
         "D Şıkkı": "0.5 nm.",
         "Doğru Cevap": "c",
-        "Açıklama": Hassas Alan Seyrüseferi (P-RNAV) standartlarına göre, sistemin uçuş süresinin en az %95'inde +/- 1 deniz mili (1 NM) dahilinde bir doğruluk payı ile çalışması gerekmektedir. Terminal kontrol sahalarında (TMA) ve belirli rotalarda uygulanan bu hassasiyet, uçağın tanımlanmış rota merkez hattından sapma miktarının 1 NM'yi geçmemesini garanti eder. RNP (Required Navigation Performance) 1 kriterleri ile de uyumludur.",
+        "Açıklama": "Hassas Alan Seyrüseferi (P-RNAV) standartlarına göre, sistemin uçuş süresinin en az %95 inde +/- 1 deniz mili (1 NM) dahilinde bir doğruluk payı ile çalışması gerekmektedir. Terminal kontrol sahalarında (TMA) ve belirli rotalarda uygulanan bu hassasiyet, uçağın tanımlanmış rota merkez hattından sapma miktarının 1 NM'yi geçmemesini garanti eder. RNP (Required Navigation Performance) 1 kriterleri ile de uyumludur.",
         "Zorluk Derecesi(1-5)": "4",
         "Resim Yolu": "Bilinmiyor",
         "Kategori": "10) NAV - SEYRÜSEFER ( U 01 E UO 205 ) - ALAN NAVİGASYONU"
@@ -19421,7 +19421,7 @@
         "B Şıkkı": "1 + 1 > 2",
         "C Şıkkı": "1 + 1 < 2",
         "D Şıkkı": "1 +/- 1 < 2",
-        "Doğru Cevap": "b",
+        "Doğru Cevap": "a",
         "Açıklama": "Sinerji, ekip çalışmasının verimliliğinin bireylerin tekil toplamından daha yüksek olmasıdır. İki kişilik bir ekipte sinerji 1 + 1 > 2 formülüyle (birlikte daha güçlü) ifade edilir.",
         "Zorluk Derecesi(1-5)": "2",
         "Resim Yolu": "Bilinmiyor",
@@ -23266,4 +23266,5 @@
         "Kategori": "7) MET - METEOROLOJİ ( U 01 E UO 196 ) - ATMOSFER, ATMOSFERİN BİLEŞİMİ VE KAPSAMI, DİKEY BÖLME"
     }
 ]
+
 
