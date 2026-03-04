@@ -6810,7 +6810,7 @@
         "B Şıkkı": "extremely stable and require small elevator control to change pitch.",
         "C Şıkkı": "extremely unstable and require excessive elevator control to change pitch.",
         "D Şıkkı": "extremely unstable and require small elevator control to change pitch.",
-        "Doğru Cevap": "c",
+        "Doğru Cevap": "a",
         "Açıklama": "Ağırlık merkezi çok önde olan bir uçak boylamasına eksende aşırı istikrarlı (stable) hale gelir, bu da pilotun uçağın burnunu yukarı kaldırmak (pitch change) için çok daha fazla güç ve kumanda uygulamasını gerektirir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
@@ -23266,4 +23266,5 @@
         "Kategori": "7) MET - METEOROLOJİ ( U 01 E UO 196 ) - ATMOSFER, ATMOSFERİN BİLEŞİMİ VE KAPSAMI, DİKEY BÖLME"
     }
 ]
+
 
