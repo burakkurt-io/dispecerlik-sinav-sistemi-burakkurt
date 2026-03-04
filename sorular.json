@@ -19895,7 +19895,7 @@
         "B Şıkkı": "Kuvvetli buzlanma, Wind Shear, Dolu yağışı gibi olumsuz hava şartları meydana getirebilir.",
         "C Şıkkı": "Yağış olmadığı zamanlarda görüş iyidir.",
         "D Şıkkı": "Soğuk cephe hattından itibaren 20-25 millik bir sahada Squall Line oluşabilir.",
-        "Doğru Cevap": "b",
+        "Doğru Cevap": "s",
         "Açıklama": "Soğuk cepheler (Cold Front), sıcak cephelere göre çok daha dik bir meyile (eğime) sahiptir ve daha hızlı hareket ederler; bu nedenle hava olayları çok daha şiddetli ve ani gelişir.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
@@ -23266,6 +23266,7 @@
         "Kategori": "7) MET - METEOROLOJİ ( U 01 E UO 196 ) - ATMOSFER, ATMOSFERİN BİLEŞİMİ VE KAPSAMI, DİKEY BÖLME"
     }
 ]
+
 
 
 
