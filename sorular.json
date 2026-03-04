@@ -19896,7 +19896,7 @@
         "C Şıkkı": "Yağış olmadığı zamanlarda görüş iyidir.",
         "D Şıkkı": "Soğuk cephe hattından itibaren 20-25 millik bir sahada Squall Line oluşabilir.",
         "Doğru Cevap": "s",
-        "Açıklama": "Soğuk cepheler (Cold Front), sıcak cephelere göre çok daha dik bir meyile (eğime) sahiptir ve daha hızlı hareket ederler; bu nedenle hava olayları çok daha şiddetli ve ani gelişir.",
+        "Açıklama": "A şıkkı hatalıdır. Soğuk cepheler, sıcak cephelere kıyasla çok daha hızlı hareket eder (ortalama 20-35 knot) ve yer yüzeyine sürtünerek ilerlediği için cephe eğimleri çok daha diktir. Bu hızlı ve dik yapı, kararsızlık yaratarak tehlikeli meteorolojik hadiselerin oluşmasına zemin hazırlar.",
         "Zorluk Derecesi(1-5)": "3",
         "Resim Yolu": "Bilinmiyor",
         "Kategori": "7) MET - METEOROLOJİ ( U 01 E UO 196 ) - CEPHELERDEKİ VE CEPHE ZONLARININ DİĞER BÖLÜMLERİNDEKİ HAVA ŞARTLARI"
@@ -23266,6 +23266,7 @@
         "Kategori": "7) MET - METEOROLOJİ ( U 01 E UO 196 ) - ATMOSFER, ATMOSFERİN BİLEŞİMİ VE KAPSAMI, DİKEY BÖLME"
     }
 ]
+
 
 
 
